@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Salem Lahlou
-description: Salem Lahlou's website
+description: Last year PhD Student | Machine Learning
 
-baseurl: / #name of GitHub repository
-url: "https://saleml.github.io" #custom url to be used instead of GitHub repository
-email: #
+baseurl: "" #name of GitHub repository
+url:  #custom url to be used instead of GitHub repository
+email: lahlosal@mila.quebec
 
 # Pagination
 paginate: 4
@@ -13,15 +13,15 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "#"
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
+twitter: #
+linkedin: "salemlahlou/"
+stackoverflow: #
+github: "saleml"
+researchgate: "Salem-Lahlou"
+orcid: #
+quora: #
+instagram: #
+facebook: #
 
 
 # Markdown

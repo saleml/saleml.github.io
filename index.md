@@ -7,15 +7,10 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Hello,
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+I am Salem Lahlou, a last year PhD candidate at [Mila](https://mila.quebec/en/){:target="_blank"} and [UdeM](https://www.umontreal.ca/en){:target="_blank"}, under the supervision of [Yoshua Bengio](https://yoshuabengio.org/){:target="_blank"}.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+My research interests are broad. During my PhD, I worked on reinforcement learning, uncertainty estimation, curriculum learning, and probabilistic modeling. I like to use math to get guarantees about the performances of machine learning algorithms, and to develop insights about their behavior and how to improve them.
 
-PS: If you liked the theme, do star it on GitHub!
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+Prior to my PhD, I studied applied mathematics in [Ecole Polytechnique](https://www.polytechnique.edu/){:target="_blank"} and machine learning in [Ecole Normale Supérieure Paris-Saclay](https://ens-paris-saclay.fr/){:target="_blank"}. I did research in game theory and operations research at [IBM Research Singapore](https://researcher.watson.ibm.com/researcher/view_group.php?id=8131){:target="_blank"}, and worked as a data scientist at Booking.com in Amsterdam.
