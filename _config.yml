@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Salem Lahlou
-description: Last year PhD Student | Machine Learning
+description: AI Researcher
 
 baseurl: "" #name of GitHub repository
 url:  #custom url to be used instead of GitHub repository
-email: lahlosal@mila.quebec
+email: salemlahlou9@gmail.com
 
 # Pagination
 paginate: 4
