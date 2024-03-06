@@ -9,7 +9,7 @@ published: true
 
 Hello,
 
-I am Salem Lahlou, a researcher in Artificial Intelligence. I defended my PhD thesis at [Mila](https://mila.quebec/en/){:target="_blank"} and [UdeM](https://www.umontreal.ca/en){:target="_blank"}, under the supervision of [Yoshua Bengio](https://yoshuabengio.org/){:target="_blank"}, in December 2023. In February, I will be joining [TII](https://www.tii.ae/){:target="_blank"} as a Senior Machine Learning Researcher.
+I am Salem Lahlou, a researcher in Artificial Intelligence. I am currently working at [TII](https://www.tii.ae/){:target="_blank"} as a Senior Researcher. I defended my PhD thesis at [Mila](https://mila.quebec/en/){:target="_blank"} and [UdeM](https://www.umontreal.ca/en){:target="_blank"}, under the supervision of [Yoshua Bengio](https://yoshuabengio.org/){:target="_blank"}, in December 2023.
 
 My research interests are broad. During my PhD, I worked on reinforcement learning, uncertainty estimation, curriculum learning, and probabilistic modeling. I like to use math to get guarantees about the performances of machine learning algorithms, and to develop insights about their behavior and how to improve them. Overall, I am more interested in understanding (and therefore defining) intelligence, be it animal or artificial.
 
