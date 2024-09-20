@@ -5,7 +5,7 @@ description: Assistant Professor of Machine Learning
 
 baseurl: "" #name of GitHub repository
 url:  #custom url to be used instead of GitHub repository
-email: salemlahlou9@gmail.com
+email: salem.lahlou@mbzuai.ac.ae
 
 # Pagination
 paginate: 4
