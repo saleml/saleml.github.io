@@ -18,7 +18,7 @@ I am an Assistant Professor at the Machine Learning department of the [Mohamed b
 - Uncertainty estimation
 - Active Learning
 - Bayesian Optimization
-- Generative flow networks
+- Generative flow networks - including the [torchgfn](https://github.com/GFNOrg/torchgfn){:target="_blank"} GFlowNet library
 - Probabilistic modeling
 - Generative models
 - Reasoning
