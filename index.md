@@ -9,7 +9,7 @@ published: true
 
 I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation, generative models, reinforcement learning sample complexity, and more generally in designing better "AI for science" tools.
 
-<span style="color:green">**I am actively recruiting **highly motivated** students!**</span> If you're interested in joining my group as a PhD student, Master's student~~, or research associate~~, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfHeGNX2iVfE0QZU-Bmr0kjKHivF2VulIsS5MoXqw7i6wKkOQ/viewform?usp=sf_link). There is no need to send me an email after you fill out the form. 
+<span style="color:green">**I am actively recruiting **highly motivated** students!**</span> If you're interested in joining my group as a PhD student, Master's student~~, or research associate~~, please fill out [this form](https://forms.gle/y8pgujVkaVeV5kVm7). There is no need to send me an email after you fill out the form. 
 
 <span style="color:green">**Research topics include but are not limited to:**</span>
 - AI for science tools
