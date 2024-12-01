@@ -266,27 +266,30 @@ blockquote {
   gap: 1em;
   
   .topic-item {
-    background: rgba($brand-color, 0.1);
+    background: rgba($brand-color, 0.15);
     padding: 1em;
     border-radius: 8px;
     text-align: center;
     transition: all 0.2s ease;
     border: 1px solid transparent;
     font-weight: 500;
+    color: darken($brand-color, 15%);
     
     &:hover {
       transform: translateY(-2px);
       border-color: $brand-color;
-      background: rgba($brand-color, 0.15);
+      background: rgba($brand-color, 0.25);
+      color: darken($brand-color, 25%);
     }
     
     @media (prefers-color-scheme: dark) {
-      background: rgba($brand-color, 0.08);
-      color: lighten($text-color-dark, 10%);
+      background: rgba($brand-color, 0.15);
+      color: lighten($brand-color, 15%);
       
       &:hover {
-        background: rgba($brand-color, 0.12);
-        border-color: lighten($brand-color, 10%);
+        background: rgba($brand-color, 0.25);
+        border-color: lighten($brand-color, 15%);
+        color: lighten($brand-color, 25%);
       }
     }
   }
