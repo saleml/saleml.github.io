@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation, generative models, reinforcement learning sample complexity, and more generally in designing better "AI for science" tools.
+I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation,  reinforcement learning sample complexity, gflownets, and more generally in designing better "AI for science" tools.
 
 <span style="color:green">**I am actively recruiting **highly motivated** students!**</span> If you're interested in joining my group as a PhD student, Master's student~~, or research associate~~, please fill out [this form](https://forms.gle/y8pgujVkaVeV5kVm7). There is no need to send me an email after you fill out the form. 
 
@@ -26,8 +26,8 @@ I am an Assistant Professor at the Machine Learning department of the [Mohamed b
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
 <ul>
-  <li><span class="news-date">November 2024</span> - I attended the [CLIMB workshop](https://climb.berkeley.edu/climb-workshop/){:target="_blank"}, and the [Domain adaption and related arewas workshop](https://simons.berkeley.edu/workshops/domain-adaptation-related-areas){:target="_blank"} at the Simon's institute, in University of California, Berkeley.</li>
-  <li><span class="news-date">October 2024</span> - I am co-organizing the [NETYS 2025](https://netys.org/){:target="_blank"} conference in Rabat, Morocco in May 2025.</li>
+  <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related arewas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
+  <li><span class="news-date">October 2024</span> - I am co-organizing the <a href="https://netys.org/" target="_blank">NETYS 2025</a> conference in Rabat, Morocco, in May 2025.</li>
   <li><span class="news-date">September 2024</span> - I joined MBZUAI as an Assistant Professor in the Machine Learning Department.</li>
 </ul>
 </div>
