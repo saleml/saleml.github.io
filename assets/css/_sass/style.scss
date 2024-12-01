@@ -193,3 +193,25 @@ blockquote {
       background: #f7f7f7;
   }
 }
+
+.news {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  .news-date {
+    font-weight: bold;
+    color: $brand-color;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .news-date {
+      color: lighten($brand-color, 10%);
+    }
+  }
+}

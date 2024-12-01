@@ -20,14 +20,24 @@ I am an Assistant Professor at the Machine Learning department of the [Mohamed b
 - Bayesian Optimization
 - Generative flow networks - including the [torchgfn](https://github.com/GFNOrg/torchgfn){:target="_blank"} GFlowNet library
 - Probabilistic modeling
-- Generative models
 - Reasoning
 - Large Language Model Reasoning
+
+<div class="news" style="margin-top: 2em;">
+<h2>News</h2>
+<ul>
+  <li><span class="news-date">November 2024</span> - I attended the [CLIMB workshop](https://climb.berkeley.edu/climb-workshop/){:target="_blank"}, and the [Domain adaption and related arewas workshop](https://simons.berkeley.edu/workshops/domain-adaptation-related-areas){:target="_blank"} at the Simon's institute, in University of California, Berkeley.</li>
+  <li><span class="news-date">October 2024</span> - I am co-organizing the [NETYS 2025](https://netys.org/){:target="_blank"} conference in Rabat, Morocco in May 2025.</li>
+  <li><span class="news-date">September 2024</span> - I joined MBZUAI as an Assistant Professor in the Machine Learning Department.</li>
+</ul>
+</div>
+
+<div style="margin-top: 2em;">
 
 Overall, I am more interested in understanding (and therefore defining) intelligence, be it animal or artificial.
 
 Before this, I worked at [TII](https://www.tii.ae/){:target="_blank"} as a Senior Researcher in 2024, obtained my PhD in 2023 from [Mila](https://mila.quebec/en/){:target="_blank"} and [UdeM](https://www.umontreal.ca/en){:target="_blank"}, under the supervision of [Yoshua Bengio](https://yoshuabengio.org/){:target="_blank"}, interned in [Google Brain](https://www.youtube.com/watch?v=dQw4w9WgXcQ&themeRefresh=1) in Paris in 2020 to work on hierarchical reinforcement learning. Prior to my PhD, I studied applied mathematics in [Ecole Polytechnique](https://www.polytechnique.edu/){:target="_blank"} and statistical learning in [Ecole Normale Supérieure Paris-Saclay](https://ens-paris-saclay.fr/){:target="_blank"}. I did research in game theory and operations research in [IBM Research Singapore](https://researcher.watson.ibm.com/researcher/view_group.php?id=8131){:target="_blank"}, and worked as a data scientist in [Booking.com](https://www.booking.com/) in Amsterdam.
-
+</div>
 
 
 I have provided consulting services to dozens startups. [Contact me](mailto:salem.lahlou@mbzuai.ac.ae) if interested!
