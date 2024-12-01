@@ -13,7 +13,7 @@ published: true
   </p>
 
   <div class="highlight-box">
-    <span class="highlight-text">**I am actively recruiting highly motivated students!**</span> 
+    <span class="highlight-text"><b>I am actively recruiting highly motivated students!</b></span> 
     If you're interested in joining my group as a PhD student or Master's student, please fill out <a href="https://forms.gle/y8pgujVkaVeV5kVm7">this form</a>. No internships are available at the moment.
   </div>
 
