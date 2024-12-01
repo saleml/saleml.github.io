@@ -7,21 +7,30 @@ profile:
 published: true
 ---
 
-I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation,  reinforcement learning sample complexity, gflownets, and more generally in designing better "AI for science" tools.
+<div class="intro-section">
+  <p class="lead-text">
+    I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation, reinforcement learning sample complexity, gflownets, and more generally in designing better "AI for science" tools.
+  </p>
 
-<span style="color:green">**I am actively recruiting **highly motivated** students!**</span> If you're interested in joining my group as a PhD student, Master's student~~, or research associate~~, please fill out [this form](https://forms.gle/y8pgujVkaVeV5kVm7). There is no need to send me an email after you fill out the form. 
+  <div class="highlight-box">
+    <span class="highlight-text">**I am actively recruiting highly motivated students!**</span> 
+    If you're interested in joining my group as a PhD student or Master's student, please fill out [this form](https://forms.gle/y8pgujVkaVeV5kVm7). No internships are available at the moment.
+  </div>
 
-<span style="color:green">**Research topics include but are not limited to:**</span>
-- AI for science tools
-- Sample efficient reinforcement learning
-- Curriculum learning
-- Uncertainty estimation
-- Active Learning
-- Bayesian Optimization
-- Generative flow networks - including the [torchgfn](https://github.com/GFNOrg/torchgfn){:target="_blank"} GFlowNet library
-- Probabilistic modeling
-- Reasoning
-- Large Language Model Reasoning
+  <div class="research-topics">
+    <h3>Research Topics</h3>
+    <div class="topic-grid">
+      <div class="topic-item">AI for Science Tools</div>
+      <div class="topic-item">Sample Efficient RL</div>
+      <div class="topic-item">Curriculum Learning</div>
+      <div class="topic-item">Uncertainty Estimation</div>
+      <div class="topic-item">Active Learning</div>
+      <div class="topic-item">Bayesian Optimization</div>
+      <div class="topic-item">GFlowNets</div>
+      <div class="topic-item">Probabilistic Modeling</div>
+    </div>
+  </div>
+</div>
 
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
