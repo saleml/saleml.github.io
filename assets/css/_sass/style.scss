@@ -266,7 +266,7 @@ blockquote {
   gap: 1em;
   
   .topic-item {
-    background: rgba($brand-color, 0.15);
+    background: rgba(96, 193, 125, 0.15);
     padding: 1em;
     border-radius: 8px;
     text-align: center;
@@ -278,16 +278,16 @@ blockquote {
     &:hover {
       transform: translateY(-2px);
       border-color: $brand-color;
-      background: rgba($brand-color, 0.25);
+      background: rgba(96, 193, 125, 0.25);
       color: darken($brand-color, 25%);
     }
     
     @media (prefers-color-scheme: dark) {
-      background: rgba($brand-color, 0.15);
+      background: rgba(96, 193, 125, 0.15);
       color: lighten($brand-color, 15%);
       
       &:hover {
-        background: rgba($brand-color, 0.25);
+        background: rgba(96, 193, 125, 0.25);
         border-color: lighten($brand-color, 15%);
         color: lighten($brand-color, 25%);
       }
