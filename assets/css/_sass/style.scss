@@ -266,18 +266,28 @@ blockquote {
   gap: 1em;
   
   .topic-item {
-    background: $projectbox;
+    background: rgba($brand-color, 0.1);
     padding: 1em;
     border-radius: 8px;
     text-align: center;
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    font-weight: 500;
     
     &:hover {
       transform: translateY(-2px);
+      border-color: $brand-color;
+      background: rgba($brand-color, 0.15);
     }
     
     @media (prefers-color-scheme: dark) {
-      background: $projectbox-dark;
+      background: rgba($brand-color, 0.08);
+      color: lighten($text-color-dark, 10%);
+      
+      &:hover {
+        background: rgba($brand-color, 0.12);
+        border-color: lighten($brand-color, 10%);
+      }
     }
   }
 }

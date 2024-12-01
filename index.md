@@ -9,12 +9,12 @@ published: true
 
 <div class="intro-section">
   <p class="lead-text">
-    I am an Assistant Professor at the Machine Learning department of the [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}, focusing on uncertainty estimation, reinforcement learning sample complexity, gflownets, and more generally in designing better "AI for science" tools.
+    I am an Assistant Professor at the Machine Learning department of the <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>, focusing on uncertainty estimation, reinforcement learning sample complexity, gflownets, and more generally in designing better "AI for science" tools.
   </p>
 
   <div class="highlight-box">
     <span class="highlight-text">**I am actively recruiting highly motivated students!**</span> 
-    If you're interested in joining my group as a PhD student or Master's student, please fill out [this form](https://forms.gle/y8pgujVkaVeV5kVm7). No internships are available at the moment.
+    If you're interested in joining my group as a PhD student or Master's student, please fill out <a href="https://forms.gle/y8pgujVkaVeV5kVm7">this form</a>. No internships are available at the moment.
   </div>
 
   <div class="research-topics">
@@ -45,8 +45,7 @@ published: true
 
 Overall, I am more interested in understanding (and therefore defining) intelligence, be it animal or artificial.
 
-Before this, I worked at [TII](https://www.tii.ae/){:target="_blank"} as a Senior Researcher in 2024, obtained my PhD in 2023 from [Mila](https://mila.quebec/en/){:target="_blank"} and [UdeM](https://www.umontreal.ca/en){:target="_blank"}, under the supervision of [Yoshua Bengio](https://yoshuabengio.org/){:target="_blank"}, interned in [Google Brain](https://www.youtube.com/watch?v=dQw4w9WgXcQ&themeRefresh=1) in Paris in 2020 to work on hierarchical reinforcement learning. Prior to my PhD, I studied applied mathematics in [Ecole Polytechnique](https://www.polytechnique.edu/){:target="_blank"} and statistical learning in [Ecole Normale Supérieure Paris-Saclay](https://ens-paris-saclay.fr/){:target="_blank"}. I did research in game theory and operations research in [IBM Research Singapore](https://researcher.watson.ibm.com/researcher/view_group.php?id=8131){:target="_blank"}, and worked as a data scientist in [Booking.com](https://www.booking.com/) in Amsterdam.
+Before this, I worked at <a href="https://www.tii.ae/" target="_blank">TII</a> as a Senior Researcher in 2024, obtained my PhD in 2023 from <a href="https://mila.quebec/en/" target="_blank">Mila</a> and <a href="https://www.umontreal.ca/en" target="_blank">UdeM</a>, under the supervision of <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, interned in <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&themeRefresh=1">Google Brain</a> in Paris in 2020 to work on hierarchical reinforcement learning. Prior to my PhD, I studied applied mathematics in <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning in <a href="https://ens-paris-saclay.fr/" target="_blank">Ecole Normale Supérieure Paris-Saclay</a>. I did research in game theory and operations research in <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a>, and worked as a data scientist in <a href="https://www.booking.com/">Booking.com</a> in Amsterdam.
 </div>
 
 
-I have provided consulting services to dozens startups. [Contact me](mailto:salem.lahlou@mbzuai.ac.ae) if interested!
