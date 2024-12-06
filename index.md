@@ -35,7 +35,8 @@ published: true
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
 <ul>
-  <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related arewas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
+  <li><span class="news-date">December 2024</span> - I gave a keynote talk titled "Advancing the Fourth Paradigm: Machine Learning Frameworks for Experimental Science" at the  the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
+  <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related areas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
   <li><span class="news-date">October 2024</span> - I am co-organizing the <a href="https://netys.org/" target="_blank">NETYS 2025</a> conference in Rabat, Morocco, in May 2025.</li>
   <li><span class="news-date">September 2024</span> - I joined MBZUAI as an Assistant Professor in the Machine Learning Department.</li>
 </ul>
