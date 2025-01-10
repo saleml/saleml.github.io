@@ -18,6 +18,9 @@ jobs:
           ruby-version: '3.1' # Specify the desired Ruby version
           bundler-cache: true # Cache gems to speed up builds
 
+      - name: Recreate Gemfile.lock  # Add this step
+        run: bundle install
+
       - name: Build with Jekyll
         run: |
           bundle install
