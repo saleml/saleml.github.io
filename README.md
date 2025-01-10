@@ -7,7 +7,7 @@ responsive, dark-mode ready Jekyll theme designed for use as a personal website 
 - Respects Dark Mode preference set by the user
 - Projects Page to showcase your wok/side projects
 - Easily link to your profiles on ResearchGate and ORCID
-
+m
 ## Installation
 * Click on `Use this template`
 * Your new site should be ready at https://username.github.io/gradfolio/
