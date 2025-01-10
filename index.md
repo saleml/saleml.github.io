@@ -21,10 +21,10 @@ published: true
     <h3>Research Topics</h3>
     <div class="topic-grid">
       <div class="topic-item">AI for Science Tools</div>
-      <div class="topic-item">Sample Efficient RL</div>
+      <div class="topic-item">LLM Reasoning</div>
       <div class="topic-item">Curriculum Learning</div>
       <div class="topic-item">Uncertainty Estimation</div>
-      <div class="topic-item">Active Learning</div>
+      <div class="topic-item">Sample Efficient RL</div>
       <div class="topic-item">Bayesian Optimization</div>
       <div class="topic-item">GFlowNets</div>
       <div class="topic-item">Probabilistic Modeling</div>
