@@ -30,15 +30,19 @@ published: true
       <div class="topic-item">Probabilistic Modeling</div>
     </div>
   </div>
-</div>
+
 
   <div class="my-contributions" style="margin-top: 2em;">
-    <h3>My Contributions</h3>
+  <h3 id="contributions-toggle" style="cursor: pointer;">
+    My Contributions 
+    <span id="contributions-icon">+</span> 
+  </h3>
+  <div id="contributions-content" style="display: none;">
     <p>
       As AI systems are increasingly deployed in complex tasks and real-world applications, I believe it's crucial to understand and improve their reasoning and reliability. My work addresses challenges like quantifying uncertainty, performing efficient search and sampling, and ensuring reliable reasoning, all of which are fundamental for safe and effective AI deployment.
     </p>
     <p>
-      One major focus has been the development of Generative Flow Networks (GFlowNets), a framework that connects reinforcement learning and probabilistic modeling. I've worked on establishing the theoretical foundations of GFlowNets, demonstrating their effectiveness in Bayesian inference of discrete and continuous structures, and showing their ability to handle multimodal distributions better than traditional variational methods. I also created and released <a href="your_link_to_torchgfn">torchgfn</a>, an open-source software framework, to make GFlowNets more accessible for both discrete and general applications.
+      One major focus has been the development of Generative Flow Networks (GFlowNets), a framework that connects reinforcement learning and probabilistic modeling. I've worked on establishing the theoretical foundations of GFlowNets, demonstrating their effectiveness in Bayesian inference of discrete and continuous structures, and showing their ability to handle multimodal distributions better than traditional variational methods. I also created and released <a href="https://github.com/GFNOrg/torchgfn" target="_blank">torchgfn</a>, an open-source software framework, to make GFlowNets more accessible for both discrete and general applications.
     </p>
     <p>
       Beyond GFlowNets, I've also contributed to uncertainty estimation through a method called DEUP (Direct Epistemic Uncertainty Prediction). DEUP addresses model misspecification in interactive learning settings by using a secondary predictor trained on the main model's errors. This results in more reliable uncertainty estimates for decision-making in downstream tasks.
@@ -47,6 +51,24 @@ published: true
       Currently, I'm focused on scaling GFlowNets to tackle more complex problems, using them to enhance Large Language Model reasoning, and developing even better uncertainty estimation methods. My overall goal is to improve the reliability, efficiency, and reasoning capabilities of AI systems, particularly in scenarios that demand robust decision-making under uncertainty.
     </p>
   </div>
+</div>
+
+<script>
+  const contributionsToggle = document.getElementById('contributions-toggle');
+  const contributionsContent = document.getElementById('contributions-content');
+  const contributionsIcon = document.getElementById('contributions-icon');
+
+  contributionsToggle.addEventListener('click', () => {
+    if (contributionsContent.style.display === 'none') {
+      contributionsContent.style.display = 'block';
+      contributionsIcon.textContent = '-'; // Change to minus when expanded
+    } else {
+      contributionsContent.style.display = 'none';
+      contributionsIcon.textContent = '+'; // Change to plus when collapsed
+    }
+  });
+</script>
+
 </div>
 
 <div class="news" style="margin-top: 2em;">
