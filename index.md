@@ -12,10 +12,7 @@ published: true
     I am an Assistant Professor at the Machine Learning department of the <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>. My research focuses on areas like LLM reasoning, GFlowNets, uncertainty estimation, reinforcement learning sample complexity, and more broadly, on designing better "AI for science" tools.
   </p>
 
-  <div class="highlight-box">
-    <span class="highlight-text"><b>I am actively recruiting highly motivated students!</b></span> 
-    If you're interested in joining my group as a PhD student or Master's student, please fill out <a href="https://forms.gle/y8pgujVkaVeV5kVm7">this form</a>. No internships are available at the moment.
-  </div>
+
 
   <div class="research-topics">
     <h3>Research Topics</h3>
@@ -55,11 +52,16 @@ published: true
   </div>
 </div>
 
-
+  <div class="highlight-box">
+    <span class="highlight-text"><b>Not hiring in 2025!</b></span> 
+    If you're interested in joining my group as a PhD student or Master's student, please fill out <a href="https://forms.gle/y8pgujVkaVeV5kVm7">this form</a>. No internships are available at the moment. 
+  </div>
 
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
 <ul>
+  <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces" at the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
+  <li><span class="news-date">February 2025</span> - I co-taught the week-long, pre-doctoral level, "Mathematical Foundations of Machine Learning" class at <a href="https://um6p.ma/">UM6P, Ben Guerir</a>.</li>
   <li><span class="news-date">December 2024</span> - I gave a keynote talk titled "Advancing the Fourth Paradigm: Machine Learning Frameworks for Experimental Science" at the  the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
   <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related areas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
   <li><span class="news-date">October 2024</span> - I am co-organizing the <a href="https://netys.org/" target="_blank">NETYS 2025</a> conference in Rabat, Morocco, in May 2025.</li>
