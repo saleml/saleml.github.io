@@ -54,7 +54,7 @@ published: true
 
   <div class="highlight-box">
     <span class="highlight-text"><b>Not hiring in 2025!</b></span> 
-    If you're interested in joining my group as a PhD student or Master's student, please fill out <a href="https://forms.gle/y8pgujVkaVeV5kVm7">this form</a>. No internships are available at the moment. 
+    <a href="https://forms.gle/y8pgujVkaVeV5kVm7">The usual form</a> is closed. 
   </div>
 
 <div class="news" style="margin-top: 2em;">
