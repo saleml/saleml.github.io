@@ -60,7 +60,7 @@ published: true
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
 <ul>
-  <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces" at the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
+  <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces" (<a href="{{site.baseurl}}/assets/files/mbzuai_paris_workshop_feb25.pdf" target="_blank">slides</a>) at the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
   <li><span class="news-date">February 2025</span> - I co-taught the week-long, pre-doctoral level, "Mathematical Foundations of Machine Learning" class at <a href="https://um6p.ma/">UM6P, Ben Guerir</a>.</li>
   <li><span class="news-date">February 2025</span> - Our work <a href="https://arxiv.org/abs/2406.16061">"PORT: Preference Optimization on Reasoning Traces"</a> has been accepted to the <a href="https://2025.naacl.org/">NAACL 2025</a> conference.</li>
   <li><span class="news-date">February 2025</span> - Our work “Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers” has been accepted to the <a href="https://www.servsig.org/wordpress/2024/08/2025-frontiers-in-service-in-hec-montreal-canada/">Frontiers in service 2025</a> conference.</li>
