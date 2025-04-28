@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import "./style.css"; // Import your new CSS
 
 function HyperstackVMManager() {
   const [vms, setVMs] = useState([]);
 
-  // Generic function to proxy API calls
-  const callApi = async (method, path, data = null) => {
+  // Wrap callApi in useCallback. It has no external dependencies from component scope.
+  const callApi = useCallback(async (method, path, data = null) => {
     try {
       const response = await axios({
         method: method,
@@ -30,9 +30,10 @@ function HyperstackVMManager() {
       alert(errorMessage);
       throw error; // Re-throw the error to stop further processing if needed
     }
-  };
+  }, []); // Empty dependency array as it doesn't rely on component state/props
 
-  const fetchVMs = async () => {
+  // Wrap fetchVMs in useCallback. It depends on callApi.
+  const fetchVMs = useCallback(async () => {
     try {
       // Pass original path and method
       const data = await callApi('get', '/core/virtual-machines');
@@ -41,9 +42,10 @@ function HyperstackVMManager() {
        // Error is already logged and alerted in callApi
       console.error("Failed to process VMs after fetch:", error);
     }
-  };
+  }, [callApi]); // Dependency array includes callApi
 
-  const handleHibernate = async (vmId) => {
+  // Wrap handleHibernate in useCallback. It depends on callApi and fetchVMs.
+  const handleHibernate = useCallback(async (vmId) => {
      try {
       // Pass original path and method
       await callApi('get', `/core/virtual-machines/${vmId}/hibernate`);
@@ -53,9 +55,10 @@ function HyperstackVMManager() {
       // Error is already logged and alerted in callApi
       console.error(`Processing error after hibernate attempt for VM ${vmId}:`, error);
      }
-  };
+  }, [callApi, fetchVMs]); // Dependency array includes callApi and fetchVMs
 
-  const handleRelaunch = async (vmId) => {
+  // Wrap handleRelaunch in useCallback. It depends on callApi and fetchVMs.
+  const handleRelaunch = useCallback(async (vmId) => {
     try {
       // Pass original path and method
       await callApi('get', `/core/virtual-machines/${vmId}/hibernate-restore`);
@@ -65,11 +68,11 @@ function HyperstackVMManager() {
       // Error is already logged and alerted in callApi
       console.error(`Processing error after relaunch attempt for VM ${vmId}:`, error);
     }
-  };
+  }, [callApi, fetchVMs]); // Dependency array includes callApi and fetchVMs
 
   useEffect(() => {
     fetchVMs();
-  }, [fetchVMs]);
+  }, [fetchVMs]); // Keep fetchVMs here, it's now stable thanks to useCallback
 
   return (
     <div>
