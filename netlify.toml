@@ -1,14 +1,13 @@
 # netlify.toml
 
 [build]
-  # Base directory: directory where the build command is run
-  base = "hyperstack-vm-manager/"
+  # NO base directory specified. All paths below are relative to the root.
   
-  # Build command: how to build the React app
-  command = "npm install && npm run build"
+  # Build command: cd into the directory, install, and build
+  command = "cd hyperstack-vm-manager && npm install && npm run build"
   
-  # Publish directory: relative to the base directory
-  publish = "build/"
+  # Publish directory: relative to the repository root
+  publish = "hyperstack-vm-manager/build/"
   
   # Functions directory: relative to the repository root
   functions = "netlify/functions/"
