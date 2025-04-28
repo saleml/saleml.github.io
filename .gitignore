@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
+hyperstack-vm-manager/build/
+hyperstack-vm-manager/node_modules/
+hyperstack-vm-manager/.env
