@@ -7,10 +7,10 @@
   # Build command: how to build the React app
   command = "npm install && npm run build"
   
-  # Publish directory: directory containing the built static assets
-  publish = "hyperstack-vm-manager/build/"
+  # Publish directory: relative to the base directory
+  publish = "build/"
   
-  # Functions directory: where Netlify functions live
+  # Functions directory: relative to the repository root
   functions = "netlify/functions/"
 
 # Redirect rule for the API proxy function
