@@ -69,7 +69,7 @@ function HyperstackVMManager() {
 
   useEffect(() => {
     fetchVMs();
-  }, []);
+  }, [fetchVMs]);
 
   return (
     <div>
