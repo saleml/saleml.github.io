@@ -311,3 +311,9 @@ blockquote {
     text-align: center;
   }
 }
+
+// Ensure bold text in tables is actually bold
+td strong,
+td b {
+  font-weight: bold; // Use 'bold' or a specific weight like 700
+}
