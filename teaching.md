@@ -4,7 +4,7 @@ permalink: /teaching/
 published: true
 ---
 
-## Teaching Experience
+## Teaching
 
 <style>
 .teaching-item {
@@ -52,6 +52,11 @@ published: true
 </style>
 
 <div class="teaching-list">
+
+  <div class="teaching-item">
+    <h3><a href="{{site.baseurl}}/sk25/">Deep Learning course - SKEMA 2025</a></h3>
+    <p>Mastère Spécialisé Chef de Projet Intelligence Artificielle</p>
+  </div>
 
   <div class="teaching-item">
     <h3 class="teaching-toggle">
