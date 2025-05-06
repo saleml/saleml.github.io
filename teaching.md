@@ -55,12 +55,12 @@ published: true
 
   <div class="teaching-item">
     <h3 class="teaching-toggle">
-      Deep Learning course - SKEMA 2025
+      Deep Learning course @ SKEMA 2025
       <span class="teaching-icon">+</span>
     </h3>
     <div class="teaching-content">
       <ul>
-        <li>Mastère Spécialisé® Chef de Projet Intelligence Artificielle</li>
+        <li>Mastère Spécialisé Chef de Projet Intelligence Artificielle</li>
         <li><a href="{{site.baseurl}}/sk25/">Course Materials</a></li>
       </ul>
     </div>
