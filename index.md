@@ -61,6 +61,7 @@ published: true
 <h2>News</h2>
 <div style="max-height: 10em; overflow-y: auto;">
 <ul>
+  <li><span class="news-date">May 2025</span> - I gave a tutorial titled "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the <a href="https://netys.org/">METIS Spring School</a>.</li>
   <li><span class="news-date">May 2025</span> - Our work <a href="https://www.arxiv.org/abs/2502.13191">"On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis"</a> has been accepted to the UAI 2025 conference, and to the <a href="https://sites.google.com/view/icbinb-2025">"I Can't Believe It's Not Better: Challenges in Applied Deep Learning" @ ICLR 2025</a> workshop <b>as a spotlight talk</b>. Congrats to my students Junyi and Abhijith.</li>
   <li><span class="news-date">May 2025</span> - I gave a talk titled "Advancing Scientific Discovery with Generative AI" at the SKEMA Center for Artificial Intelligence.</li>
   <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: An Introduction and Recent Advances" at the <a href="https://emerging-ml.github.io/">MBZUAI-Berkeley Joint Workshop on Emerging Directions of Machine Learning</a>.</li>
