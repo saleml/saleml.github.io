@@ -30,7 +30,7 @@ published: true
 
   <div class="highlight-box">
     - Postdoc positions available on <a href="https://apply.interfolio.com/167844">Conversational AI</a>, <a href="https://apply.interfolio.com/167795">Personalization & Recommendation</a>, <a href="https://apply.interfolio.com/167791">Affective and Persuasive AI</a>. All positions are collaborations between MBZUAI and Major Industry Partners in the UAE. Collaboration with Profs. Nils Lukas, Alham Fikri, Mingming Gong, Martin Takac.
-
+    <br><br>
     - Graduate students and interns: <span class="highlight-text"><b>Not hiring in 2025 anymore!</b></span> 
     <a href="https://forms.gle/y8pgujVkaVeV5kVm7">The usual form</a> is closed. 
   </div>
