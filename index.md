@@ -29,9 +29,9 @@ published: true
   </div>
 
   <div class="highlight-box">
-    <br><br>
+    <br>
     - Prospective graduate students are welcome <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">to apply to MBZUAI</a> and mention me as their supervisors <strong>after reaching out by email</strong>, mentioning their research experience and interests.  
-
+    <br>
     - Prospective visiting students with research experience, and interests aligned with mine are welcome to apply via email. I will not be responding to LLM-generated emails / research statements.
   </div>
 
