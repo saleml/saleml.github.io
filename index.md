@@ -29,10 +29,9 @@ published: true
   </div>
 
   <div class="highlight-box">
-    - Postdoc positions available on <a href="https://apply.interfolio.com/167844">Conversational AI</a>, <a href="https://apply.interfolio.com/167795">Personalization & Recommendation</a>, <a href="https://apply.interfolio.com/167791">Affective and Persuasive AI</a>. All positions are collaborations between MBZUAI and Major Industry Partners in the UAE. Collaboration with Profs. Nils Lukas, Alham Fikri, Mingming Gong, Martin Takac.
     <br><br>
-    - Graduate students and interns: <span class="highlight-text"><b>Not hiring in 2025 anymore!</b></span> 
-    <a href="https://forms.gle/y8pgujVkaVeV5kVm7">The usual form</a> is closed. 
+    - Prospective graduate students are welcome <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">to apply to MBZUAI</a> and mention me as their supervisors <strong>after reaching out by email</strong>, mentioning their research experience and interests.  
+    - Prospective visiting students with research experience, and interests aligned with mine are welcome to apply via email. I will not be responding to LLM-generated emails / research statements.
   </div>
 
   <div class="my-contributions" style="margin-top: 2em; ">
@@ -55,7 +54,7 @@ published: true
           <strong>Advancing Large Language Models:</strong> I apply these methods to improve the reasoning and alignment of LLMs, with projects focused on enhancing multi-step logic and fine-tuning models with human preferences.
         </li>
         <li style="margin-bottom: 1em;">
-          <strong>Building Tools for the Community:</strong> I believe in advancing science through shared tools. I created the <strong><code><a href="https://github.com/saleml/torchgfn" target="_blank">torchgfn</a></code></strong> library for GFlowNets and have co-led the development of benchmarks like <strong><a href="https://minigrid.farama.org/" target="_blank">BabyAI</a></strong>, <strong><a href="https://github.com/mbzuai-nlp/finchain" target="_blank">FinChain</a></strong>, and <strong><a href="https://github.com/choukrani/llm-babybench" target="_blank">LLM-BabyBench</a></strong>.
+          <strong>Building Tools for the Community:</strong> I believe in advancing science through shared tools. I created the <strong><code><a href="https://github.com/GFNOrg/torchgfn" target="_blank">torchgfn</a></code></strong> library for GFlowNets and have co-led the development of benchmarks like <strong><a href="https://minigrid.farama.org/" target="_blank">BabyAI</a></strong>, <strong><a href="https://github.com/mbzuai-nlp/finchain" target="_blank">FinChain</a></strong>, and <strong><a href="https://github.com/choukrani/llm-babybench" target="_blank">LLM-BabyBench</a></strong>.
         </li>
       </ol>
       <p>
@@ -69,15 +68,17 @@ published: true
 <h2>News</h2>
 <div style="max-height: 25em; overflow-y: auto;">
 <ul>
-    <li><span class="news-date">May 2025</span> - I co-organized the <a href="https://istfm.github.io/index.html" target="_blank">International Symposium on Trustworthy Foundation Models</a> at MBZUAI.</li>   
-  <li><span class="news-date">May 2025</span> - I gave a tutorial titled "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the <a href="https://netys.org/">METIS Spring School</a>.</li>
+  <li><span class="new-date">September 2025</span> - I gave an invited talk titled "Teaching LLMs to Reason Diversely: Process Reward Models and Step-Level GFlowNets for Mathematical Problem Solving" at Sorbonne University (Abu Dhabi)</li>
+  <li><span class="new-date">September 2025</span> - I will be serving as a co-Program chair at the <a href="https://www2026.thewebconf.org/calls/phd-symposium.html" target="_blank">PhD symposium of the Web Conference 2026</a></li>
+  <li><span class="news-date">May 2025</span> - I co-organized the <a href="https://istfm.github.io/index.html" target="_blank">International Symposium on Trustworthy Foundation Models</a> at MBZUAI.</li>   
+  <li><span class="news-date">May 2025</span> - I gave a tutorial titled "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the <a href="https://netys.org/" target="_blank">METIS Spring School</a>.</li>
   <li><span class="news-date">May 2025</span> - I served as a co-Program Chair at the <a href="https://netys.org/" target="_blank">NETYS 2025</a> conference in Rabat.</li>  
-  <li><span class="news-date">May 2025</span> - Our work <a href="https://www.arxiv.org/abs/2502.13191">"On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis"</a> has been accepted to the UAI 2025 conference, and to the <a href="https://sites.google.com/view/icbinb-2025">"I Can't Believe It's Not Better: Challenges in Applied Deep Learning" @ ICLR 2025</a> workshop <b>as a spotlight talk</b>. Congrats to my students Junyi and Abhijith.</li>
+  <!-- <li><span class="news-date">May 2025</span> - Our work <a href="https://www.arxiv.org/abs/2502.13191">"On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis"</a> has been accepted to the UAI 2025 conference, and to the <a href="https://sites.google.com/view/icbinb-2025">"I Can't Believe It's Not Better: Challenges in Applied Deep Learning" @ ICLR 2025</a> workshop <b>as a spotlight talk</b>. Congrats to my students Junyi and Abhijith.</li> -->
   <li><span class="news-date">May 2025</span> - I gave a talk titled "Advancing Scientific Discovery with Generative AI" at the SKEMA Center for Artificial Intelligence.</li>
   <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: An Introduction and Recent Advances" at the <a href="https://emerging-ml.github.io/">MBZUAI-Berkeley Joint Workshop on Emerging Directions of Machine Learning</a>.</li>
   <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces" (<a href="{{site.baseurl}}/assets/files/mbzuai_paris_workshop_feb25.pdf" target="_blank">slides</a>) at the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
-  <li><span class="news-date">February 2025</span> - Our work <a href="https://arxiv.org/abs/2406.16061">"PORT: Preference Optimization on Reasoning Traces"</a> has been accepted to the <a href="https://2025.naacl.org/">NAACL 2025</a> conference.</li>
-  <li><span class="news-date">February 2025</span> - Our work "Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers" has been accepted to the <a href="https://www.servsig.org/wordpress/2024/08/2025-frontiers-in-service-in-hec-montreal-canada/">Frontiers in service 2025</a> conference.</li>
+  <!-- <li><span class="news-date">February 2025</span> - Our work <a href="https://arxiv.org/abs/2406.16061">"PORT: Preference Optimization on Reasoning Traces"</a> has been accepted to the <a href="https://2025.naacl.org/">NAACL 2025</a> conference.</li> -->
+  <!-- <li><span class="news-date">February 2025</span> - Our work "Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers" has been accepted to the <a href="https://www.servsig.org/wordpress/2024/08/2025-frontiers-in-service-in-hec-montreal-canada/">Frontiers in service 2025</a> conference.</li> -->
   <li><span class="news-date">December 2024</span> - I gave a keynote talk titled "Advancing the Fourth Paradigm: Machine Learning Frameworks for Experimental Science" at the  the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
   <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related areas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
   <li><span class="news-date">September 2024</span> - I joined MBZUAI as an Assistant Professor in the Machine Learning Department.</li>

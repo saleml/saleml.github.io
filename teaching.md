@@ -55,6 +55,19 @@ published: true
 
   <div class="teaching-item">
     <h3 class="teaching-toggle">
+      ML8101: Foundations of Machine Learning (PhD course) @ MBZUAI 2025
+      <span class="teaching-icon">+</span>
+    </h3>
+    <div class="teaching-content">
+      <ul>
+        <li>Co-taught with Tongliang Liu</li>
+        <li>Topics: Information Theory, Variational Inference, MCMC, Gaussian Processes, Bayesian Optimization, Bayesian Neural Networks</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="teaching-item">
+    <h3 class="teaching-toggle">
       Deep Learning course (Postgraduate Specialized Master Program) @ SKEMA 2025
       <span class="teaching-icon">+</span>
     </h3>
