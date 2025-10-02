@@ -74,7 +74,7 @@ published: true
     <div class="teaching-content">
       <ul>
         <li>Mastère Spécialisé Chef de Projet Intelligence Artificielle</li>
-        <li><a href="https://la7.lu/ml-viz-tool-skema2025/" target="_blank">Interactive Visualization of linear, quadratic, and cubic regression</a></li>
+        <li><a href="https://lahlou.org/ml-viz-tool-skema2025/" target="_blank">Interactive Visualization of linear, quadratic, and cubic regression</a></li>
       </ul>
     </div>
   </div>
