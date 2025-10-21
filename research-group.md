@@ -8,7 +8,7 @@ published: true
 
 ### Postdoctoral Associates
 *   Tiago Silva (October 2025 -)
-*   Hachem Madmoun (September 2025 -) co-supervised with Martin Takac
+<!-- *   Hachem Madmoun (September 2025 -) co-supervised with Martin Takac -->
 *   Yanda Li (August 2025 -) co-supervised with Martin Takac
 *   Kshitij Mishra (July 2025 -) co-supervised with Nils Lukas and Alham Fikri Aji
 *   Yuhan Liu (August 2025 -) co-supervised with Nils Lukas and Alham Fikri Aji
