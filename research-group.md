@@ -17,7 +17,6 @@ published: true
 ### PhD Students
 *   Junyi Guan (2024 -)
 *   Abhijith Sharma (2025 -)
-*   Idriss Malek (2025 -)
 
 ### MSc Students
 *   Giorgi Kituashvili (2024 -)
