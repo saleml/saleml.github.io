@@ -54,6 +54,32 @@ published: true
 <div class="teaching-list">
 
   <div class="teaching-item">
+  <h3 class="teaching-toggle">
+    ML8103: Sequential Decision Making (PhD course) @ MBZUAI 2026
+    <span class="teaching-icon">+</span>
+  </h3>
+  <div class="teaching-content">
+    <ul>
+      <li>14-week module (42h)</li>
+      <li>Topics: Reinforcement Learning, Generative Flow Networks</li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="teaching-item">
+  <h3 class="teaching-toggle">
+    Mathematical Foundations of Machine Learning (Pre-doctoral course) @ UM6P November 2025
+    <span class="teaching-icon">+</span>
+  </h3>
+  <div class="teaching-content">
+    <ul>
+      <li>Co-taught with Hachem Madmoun</li>
+      <li>Topics: Linear algebra, probability theory, probabilistic machine learning, neural networks</li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="teaching-item">
     <h3 class="teaching-toggle">
       ML8101: Foundations of Machine Learning (PhD course) @ MBZUAI 2025
       <span class="teaching-icon">+</span>
