@@ -1,54 +1,50 @@
 ---
 layout: about
 permalink: /
-profile:
-  align: right
-  image: profile.png
 published: true
 ---
 
-<div class="intro-section">
+<div class="home-layout">
 
-  <div class="bio-toggle" style="margin-bottom: 1em; font-size: 0.9em;">
-    <button id="bio-btn-first" class="bio-tab active" type="button">Full bio</button>
-    <button id="bio-btn-third" class="bio-tab" type="button">Short bio (3rd person)</button>
-  </div>
+  <aside class="home-sidebar">
+    <img class="home-photo" src="{{site.baseurl}}/assets/images/profile.png" alt="Salem Lahlou">
 
-  <div id="bio-first" class="bio-version">
-    <p class="lead-text">
-      I am an Assistant Professor at the Machine Learning department of the <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>. My research focuses on LLM reasoning, GFlowNets, uncertainty estimation, sample-efficient reinforcement learning, and more broadly on AI for science.
+    <p class="home-position">
+      Assistant Professor<br>
+      Machine Learning Dept., <a href="https://mbzuai.ac.ae/" target="_blank">MBZUAI</a><br>
+      Abu Dhabi, UAE
     </p>
 
-    <p>
-      Before my current role I was a Senior Researcher at <a href="https://www.tii.ae/" target="_blank">TII</a> (2024). I obtained my PhD in 2023 from <a href="https://mila.quebec/en/" target="_blank">Mila</a> and <a href="https://www.umontreal.ca/en" target="_blank">Université de Montréal</a> under the supervision of <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, and during my PhD I interned at Google (Paris, 2020) on the emergence of hierarchies in social reinforcement learning. I studied applied mathematics at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">ENS Paris-Saclay (MVA)</a>. I also worked on game theory and operations research at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a> and as a data scientist at <a href="https://www.booking.com/">Booking.com</a> (Amsterdam).
-    </p>
+    <div class="home-bio">
+      <p>My research focuses on LLM reasoning, GFlowNets, uncertainty estimation, sample-efficient reinforcement learning, and more broadly AI for science.</p>
+      <p>Before MBZUAI I was a Senior Researcher at <a href="https://www.tii.ae/" target="_blank">TII</a> (2024). I obtained my PhD from <a href="https://mila.quebec/en/" target="_blank">Mila</a> / <a href="https://www.umontreal.ca/en" target="_blank">UdeM</a> in 2023 under <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, after applied math at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">ENS Paris-Saclay (MVA)</a>. I interned at Google Paris (2020) on the emergence of hierarchies in social RL, at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a>, and worked as a data scientist at <a href="https://www.booking.com/">Booking.com</a>.</p>
+      <p>I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong> and created the <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><code>torchgfn</code></a> library (published in JMLR). I'm excited about AI but mindful of its limits &mdash; I'm not a technosolutionist.</p>
+    </div>
 
-    <p>
-      I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong> and created the <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><code>torchgfn</code></a> library (published in JMLR). I am driven by a deep interest in understanding and defining intelligence, whether in animals or artificial systems. While I'm excited about the potential of AI, I'm also mindful of its limitations and pitfalls &mdash; I'm not a technosolutionist.
-    </p>
-  </div>
-
-  <div id="bio-third" class="bio-version" style="display: none;">
-    <div class="short-bio-text" style="padding: 0.75em 1em; background: #f7f7f7; border-left: 3px solid #1f77b4; border-radius: 3px;">
-      <p style="margin: 0;">
-        Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).
+    <div class="home-section">
+      <h4>Contact</h4>
+      <p class="home-contact">
+        salem.lahlou [at] mbzuai.ac.ae<br>
+        salem [at] lahlou.org
       </p>
     </div>
-    <button id="copy-short-bio" type="button" style="margin-top: 0.75em; font-size: 0.85em; padding: 0.3em 0.8em;">Copy to clipboard</button>
-    <span id="copy-feedback" style="margin-left: 0.5em; font-size: 0.85em; color: #2a8f2a; display: none;">copied</span>
-  </div>
 
-  <div class="highlight-box">
-    <br>
-    - Prospective graduate students are welcome <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">to apply to MBZUAI</a> and mention me as their supervisor <strong>after reaching out by email</strong>, mentioning their research experience and interests.
-    <br>
-    - Prospective visiting students with research experience and interests aligned with mine are welcome to apply via email. I will not be responding to LLM-generated emails / research statements.
-  </div>
-</div>
+    <div class="home-section">
+      <h4>Prospective students</h4>
+      <p>Apply to <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">MBZUAI</a> and mention me as supervisor, after reaching out by email with your research experience and interests.</p>
+      <p>Visiting students with research interests aligned with mine can apply by email. I will not respond to LLM-generated emails or research statements.</p>
+    </div>
 
-<div class="news" style="margin-top: 2em;">
-<h2>News</h2>
-<ul>
+    <div class="home-section">
+      <button id="copy-short-bio" type="button" class="copy-bio-btn">Copy short bio for talk intros</button>
+      <span id="copy-feedback" class="copy-feedback">copied</span>
+      <div id="short-bio-source" hidden>Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).</div>
+    </div>
+  </aside>
+
+  <main class="home-main">
+    <h2 class="home-news-heading">News</h2>
+    <ul class="home-news-list">
   <!-- NEWS:START -->
   <li><span class="news-date">April 2026</span> &mdash; Awarded an MBZUAI research grant (500,000 AED, PI) for advancing GFlowNet research - Co-PI: Nils Lukas.</li>
   <li><span class="news-date">April 2026</span> &mdash; Accepted invitation to serve as <strong>Program Committee Co-Chair</strong> for the Frontier AI Systems Workshop (FAISys), Xiamen, China, December 2026.</li>
@@ -82,80 +78,115 @@ published: true
   <li><span class="news-date">November 2024</span> &mdash; Attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB</a> and <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain Adaptation</a> workshops at the Simons Institute, UC Berkeley.</li>
   <li><span class="news-date">September 2024</span> &mdash; Joined MBZUAI as Assistant Professor in the Machine Learning department.</li>
   <!-- NEWS:END -->
-</ul>
+    </ul>
+  </main>
+
 </div>
 
 <style>
-  .bio-toggle {
-    display: inline-flex;
-    border: 1px solid #d3d3d3;
-    border-radius: 4px;
-    overflow: hidden;
+.home-layout {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 2.2em;
+  margin-top: 1em;
+  align-items: start;
+}
+.home-sidebar {
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+.home-photo {
+  width: 100%;
+  max-width: 230px;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 0.8em;
+}
+.home-position {
+  margin: 0 0 0.9em 0;
+  font-size: 1em;
+  line-height: 1.35;
+}
+.home-bio p {
+  margin: 0 0 0.6em 0;
+}
+.home-section {
+  margin-top: 1.1em;
+}
+.home-section h4 {
+  margin: 0 0 0.35em 0;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #888;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.2em;
+}
+.home-section p {
+  margin: 0 0 0.5em 0;
+}
+.home-contact {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.94em;
+}
+.copy-bio-btn {
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.92em;
+  color: #555;
+  padding: 0.35em 0.7em;
+}
+.copy-bio-btn:hover {
+  background: #f0f0f0;
+}
+.copy-feedback {
+  margin-left: 0.5em;
+  font-size: 0.9em;
+  color: #2a8f2a;
+  display: none;
+}
+.home-main {
+  min-width: 0;
+}
+.home-news-heading {
+  margin-top: 0;
+}
+.home-news-list {
+  padding-left: 1.2em;
+}
+@media (max-width: 720px) {
+  .home-layout {
+    grid-template-columns: 1fr;
   }
-  .bio-tab {
-    background: #fff;
-    border: 0;
-    padding: 0.35em 0.9em;
-    cursor: pointer;
-    font-family: inherit;
-    color: #555;
+  .home-photo {
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .bio-tab.active {
-    background: #1f77b4;
-    color: #fff;
+  .home-sidebar {
+    font-size: 0.9em;
   }
-  .bio-tab:not(.active):hover {
-    background: #f0f0f0;
-  }
-  #copy-short-bio {
-    background: #fff;
-    border: 1px solid #d3d3d3;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: inherit;
-    color: #555;
-  }
-  #copy-short-bio:hover {
-    background: #f0f0f0;
-  }
+}
 </style>
 
 <script>
   (function() {
-    const btnFirst = document.getElementById('bio-btn-first');
-    const btnThird = document.getElementById('bio-btn-third');
-    const bioFirst = document.getElementById('bio-first');
-    const bioThird = document.getElementById('bio-third');
-    const copyBtn = document.getElementById('copy-short-bio');
-    const copyFeedback = document.getElementById('copy-feedback');
-
-    function show(view) {
-      if (view === 'first') {
-        bioFirst.style.display = 'block';
-        bioThird.style.display = 'none';
-        btnFirst.classList.add('active');
-        btnThird.classList.remove('active');
-      } else {
-        bioFirst.style.display = 'none';
-        bioThird.style.display = 'block';
-        btnFirst.classList.remove('active');
-        btnThird.classList.add('active');
-      }
-    }
-
-    btnFirst.addEventListener('click', () => show('first'));
-    btnThird.addEventListener('click', () => show('third'));
-
-    copyBtn.addEventListener('click', async () => {
-      const text = document.querySelector('#bio-third .short-bio-text').innerText.trim();
+    const btn = document.getElementById('copy-short-bio');
+    const fb = document.getElementById('copy-feedback');
+    const src = document.getElementById('short-bio-source');
+    if (!btn) return;
+    btn.addEventListener('click', async () => {
       try {
-        await navigator.clipboard.writeText(text);
-        copyFeedback.style.display = 'inline';
-        setTimeout(() => { copyFeedback.style.display = 'none'; }, 1800);
+        await navigator.clipboard.writeText(src.textContent.trim());
+        fb.style.display = 'inline';
+        setTimeout(() => { fb.style.display = 'none'; }, 1800);
       } catch (e) {
-        copyFeedback.textContent = 'copy failed';
-        copyFeedback.style.color = '#c00';
-        copyFeedback.style.display = 'inline';
+        fb.textContent = 'copy failed';
+        fb.style.color = '#c00';
+        fb.style.display = 'inline';
       }
     });
   })();
