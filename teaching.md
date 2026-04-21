@@ -6,203 +6,32 @@ published: true
 
 ## Teaching
 
-<style>
-.teaching-item {
-  margin-bottom: 1.5em;
-}
+### At MBZUAI
 
-.teaching-toggle {
-  cursor: pointer;
-  display: block;
-  border-bottom: 1px solid #d3d3d3;
-  padding-bottom: 5px;
-  user-select: none;
-  font-weight: 500;
-  margin-bottom: 0.5em;
-}
+- **Spring 2026 &mdash; ML8103: Sequential Decision Making** (PhD course). 14-week module (42h). Topics: reinforcement learning, generative flow networks.
 
-.teaching-toggle:hover {
-    color: #007bff; /* Or your preferred hover color */
-}
+- **Fall 2025 &mdash; ML8101: Foundations of Machine Learning** (PhD course). Co-taught with Tongliang Liu. Topics: information theory, variational inference, MCMC, Gaussian processes, Bayesian optimization, Bayesian neural networks.
 
+- **Spring 2025 &mdash; ML805: Advanced Machine Learning** (PhD course). Co-taught with Michalis Vazirgiannis, Tongliang Liu, Yuanzhi Li. Topics: diffusion models, GFlowNets.
 
-.teaching-icon {
-  color: #d3d3d3;
-  font-size: 0.8em;
-  float: right;
-  line-height: inherit; /* Align icon vertically */
-}
+- **Spring 2025 &mdash; ML702: Advanced Machine Learning** (MSc course). Co-taught with Eric Moulines and Zhiqiang Shen. Topics: active learning, Bayesian optimization, reinforcement learning. [<a href="https://saleml-teaching-interactive-mp-mdp-interactive-chclfk.streamlit.app/" target="_blank">Interactive Markov Process / MDP simulations</a>]
 
-.teaching-content {
-  display: none;
-  padding-left: 1em; /* Indent the content */
-  margin-top: 0.5em;
-}
+- **Fall 2024 &mdash; ML801: Foundations and Advanced Topics in Machine Learning** (PhD course). Co-taught with Martin Takac. Topics: reinforcement learning.
 
-.teaching-content ul {
-  list-style-type: disc;
-  margin-left: 1.5em; /* Indent list items */
-  padding-left: 0;
-}
+- **Fall 2024 &mdash; MTH703: Mathematics for Theoretical Computer Science** (MSc course). Co-taught with Tongliang Liu and Jin Tian. Topics: spectral graph theory, error-correcting codes, linear programming, optimization, information theory.
 
-.teaching-content li {
-  margin-bottom: 0.3em;
-}
+### Intensive Courses and Schools
 
-</style>
+- **November 2025 &mdash; Mathematical Foundations of Machine Learning** (pre-doctoral, UM6P Morocco). Co-taught with Hachem Madmoun. Linear algebra, probability theory, probabilistic ML, neural networks.
 
-<div class="teaching-list">
+- **May 2025 &mdash; Deep Learning** (Mastère Spécialisé Chef de Projet IA, SKEMA). Week-long course. [<a href="https://lahlou.org/ml-viz-tool-skema2025/" target="_blank">Interactive regression visualization</a>]
 
-  <div class="teaching-item">
-  <h3 class="teaching-toggle">
-    ML8103: Sequential Decision Making (PhD course) @ MBZUAI 2026
-    <span class="teaching-icon">+</span>
-  </h3>
-  <div class="teaching-content">
-    <ul>
-      <li>14-week module (42h)</li>
-      <li>Topics: Reinforcement Learning, Generative Flow Networks</li>
-    </ul>
-  </div>
-  </div>
+- **February 2025 &mdash; Mathematical Foundations of Machine Learning** (pre-doctoral, UM6P Morocco). Co-taught with Hachem Madmoun.
 
-  <div class="teaching-item">
-  <h3 class="teaching-toggle">
-    Mathematical Foundations of Machine Learning (Pre-doctoral course) @ UM6P November 2025
-    <span class="teaching-icon">+</span>
-  </h3>
-  <div class="teaching-content">
-    <ul>
-      <li>Co-taught with Hachem Madmoun</li>
-      <li>Topics: Linear algebra, probability theory, probabilistic machine learning, neural networks</li>
-    </ul>
-  </div>
-  </div>
+- **February 2024 &mdash; Mathematical Foundations of Machine Learning** (pre-doctoral, UM6P Morocco). Co-taught with Hachem Madmoun.
 
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      ML8101: Foundations of Machine Learning (PhD course) @ MBZUAI 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Tongliang Liu</li>
-        <li>Topics: Information Theory, Variational Inference, MCMC, Gaussian Processes, Bayesian Optimization, Bayesian Neural Networks</li>
-      </ul>
-    </div>
-  </div>
+### Prior
 
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      Deep Learning course (Postgraduate Specialized Master Program) @ SKEMA 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Mastère Spécialisé Chef de Projet Intelligence Artificielle</li>
-        <li><a href="https://lahlou.org/ml-viz-tool-skema2025/" target="_blank">Interactive Visualization of linear, quadratic, and cubic regression</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      ML702: Advanced Machine Learning (MSc course) @ MBZUAI 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Eric Moulines and Zhiqiang Shen</li>
-        <li>Topics: Active Learning, Bayesian Optimization, Reinforcement learning</li>
-        <li><a href="https://saleml-teaching-interactive-mp-mdp-interactive-chclfk.streamlit.app/" target="_blank">Interactive Simulations of Markov Processes and Markov Decision Processes</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      ML805: Advanced Machine Learning (PhD course) @ MBZUAI 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Michalis Vazirgiannis, Tongliang Liu, and Yuanzhi Li</li>
-        <li>Topics: Diffusion models, GFlowNets</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      Mathematical Foundations of Machine Learning (Pre-doctoral course) @ UM6P 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Hachem Madmoun</li>
-        <li>Topics: Linear algebra, probability theory, probabilistic machine learning, neural networks</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      ML801: Foundations and Advanced Topics in Machine Learning (PhD course) @ MBZUAI 2025
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Martin Takac</li>
-        <li>Topics: Reinforcement Learning</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      MTH703: Mathematics for Theoretical Computer Science (MSc course) @ MBZUAI 2024
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Tongliang Liu and Jin Tian</li>
-        <li>Topics: Spectral graph theory, error correcting codes, linear programming...</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="teaching-item">
-    <h3 class="teaching-toggle">
-      Mathematical Foundations of Machine Learning (Pre-doctoral course) @ UM6P 2024
-      <span class="teaching-icon">+</span>
-    </h3>
-    <div class="teaching-content">
-      <ul>
-        <li>Co-taught with Hachem Madmoun</li>
-        <li>Topics: Linear algebra, probability theory, probabilistic machine learning, neural networks</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggles = document.querySelectorAll('.teaching-toggle');
-
-    toggles.forEach(toggle => {
-      toggle.addEventListener('click', () => {
-        const content = toggle.nextElementSibling;
-        const icon = toggle.querySelector('.teaching-icon');
-
-        if (content.style.display === 'none' || content.style.display === '') {
-          content.style.display = 'block';
-          icon.textContent = '-';
-        } else {
-          content.style.display = 'none';
-          icon.textContent = '+';
-        }
-      });
-    });
-  });
-</script> 
+- **2021** &mdash; Teaching Assistant, IVADO / Mila Deep Learning School.
+- **2019 &ndash; 2020** &mdash; Teaching Assistant, IFT 6135 and IFT 6390 (Université de Montréal).
+- **2012 &ndash; 2015** &mdash; Private Instructor for high-school and classes préparatoires (Mathematics, Physics).

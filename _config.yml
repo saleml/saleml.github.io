@@ -1,35 +1,18 @@
-### your site title here
-
 title: Salem Lahlou
 description: Assistant Professor of Machine Learning
 
-baseurl: "" #name of GitHub repository
-url: "https://lahlou.org" #custom url to be used instead of GitHub repository
+baseurl: ""
+url: "https://lahlou.org"
 email: salem.lahlou@mbzuai.ac.ae
 
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
 # Social media links in footer
-twitter: #
 linkedin: "salemlahlou/"
-stackoverflow: #
 github: "saleml"
 researchgate: "Salem-Lahlou"
-orcid: #
-quora: #
-instagram: #
-facebook: #
-
 
 # Markdown
 highlighter: rouge
 markdown: kramdown
-
-# Tracker
-analytics:
 
 # optimization -> compress.html
 compress_html:
@@ -42,19 +25,6 @@ compress_html:
   profile: false
   startings: []
 
-#collection
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-    order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
-
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
@@ -65,9 +35,8 @@ include:
 exclude:
   - README.md
   - LICENSE.md
+  - old
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-email-protect
-  #- jekyll-target-blank

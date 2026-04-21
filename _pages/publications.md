@@ -1,15 +1,163 @@
 ---
-title:
-layout: default
+title: Publications
+layout: about
 permalink: /publications/
 published: true
 ---
 
-## xxx
+## Publications
 
-xxx
+<p style="font-size: 0.9em; color: #666;">
+Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a> and on <a href="https://scholar.google.com/citations?user=xLSkCrIAAAAJ" target="_blank">Google Scholar</a>.
+</p>
 
+<div class="publications-columns">
+<div class="publications-column">
+<h3>Journal &amp; Conference Papers</h3>
+<div class="publications-scroll">
+<p class="pub-year">2026</p>
+<ul>
+<li><strong>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning.</strong> <em>ACL 2026</em></li>
+<li><strong>SAHM: Arabic Financial Instruction-Tuning Dataset and Models.</strong> <em>ACL 2026</em></li>
+<li><strong>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models.</strong> <em>Findings of ACL 2026</em></li>
+<li><strong>Communication Enables Cooperation in LLM Agents: A Comparison with Curriculum-Based Approaches.</strong> <em>EACL 2026 (Oral)</em></li>
+<li><strong>SD-E2: Semantic Exploration for Reasoning Under Token Budgets.</strong> <em>Findings of EACL 2026</em></li>
+<li><strong>TorchGFN: A PyTorch GFlowNet Library.</strong> <em>JMLR 2026 (+ NeurIPS 2025 Workshop on Frontiers in Probabilistic Inference)</em></li>
+</ul>
+<p class="pub-year">2025</p>
+<ul>
+<li><strong>Loss-guided Auxiliary Agents for Overcoming Mode Collapse in GFlowNets.</strong> <em>AAAI 2026</em></li>
+<li><strong>Improved Exploration in GFlowNets via Enhanced Epistemic Neural Networks.</strong> <em>ICoIAS 2025</em></li>
+<li><strong>Assessing the Capabilities of Large Language Models for Oil and Gas Industry Applications.</strong> <em>ADIPEC 2025</em></li>
+<li><strong>PORT: Preference Optimization on Reasoning Traces.</strong> <em>NAACL 2025</em></li>
+<li><strong>On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis.</strong> <em>UAI 2025 (+ oral at ICLR 2025 Workshop ICBINB)</em></li>
+<li><strong>SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem.</strong> <em>NeurIPS 2025</em></li>
+</ul>
+<p class="pub-year">2023</p>
+<ul>
+<li><strong>GFlowOut: Dropout with Generative Flow Networks.</strong> <em>ICML 2023</em></li>
+<li><strong>A Theory of Continuous Generative Flow Networks.</strong> <em>ICML 2023</em></li>
+<li><strong>GFlowNet Foundations.</strong> <em>JMLR 2023</em></li>
+<li><strong>GFlowNets and Variational Inference.</strong> <em>ICLR 2023</em></li>
+<li><strong>DEUP: Direct Epistemic Uncertainty Prediction.</strong> <em>TMLR 2023</em></li>
+<li><strong>MiniGrid & MiniWorld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks.</strong> <em>NeurIPS 2023</em></li>
+</ul>
+<p class="pub-year">2019</p>
+<ul>
+<li><strong>BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning.</strong> <em>ICLR 2019</em></li>
+</ul>
+<p class="pub-year">2017</p>
+<ul>
+<li><strong>A Nash Equilibrium Formulation of a Tradable Credits Scheme for Incentivizing Transport Choices.</strong> <em>Transportation Research Part B 2017</em></li>
+</ul>
+</div>
+</div>
+<div class="publications-column">
+<h3>Workshop Papers &amp; Extended Abstracts</h3>
+<div class="publications-scroll">
+<p class="pub-year">2026</p>
+<ul>
+<li><strong>HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning.</strong> <em>AI&PDE Workshop at ICLR 2026</em></li>
+<li><strong>Avoid What You Know: Divergent Trajectory Balance for GFlowNets.</strong> <em>ICLR 2026 DeLTa Workshop (accepted); under review at ICML 2026</em></li>
+</ul>
+<p class="pub-year">2025</p>
+<ul>
+<li><strong>Curriculum-Augmented GFlowNets for mRNA Sequence Generation.</strong> <em>NeurIPS 2025 Machine Learning in Structural Biology Workshop; under review at UAI 2026</em></li>
+<li><strong>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions.</strong> <em>ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR)</em></li>
+<li><strong>Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers.</strong> <em>Frontiers in Service 2025</em></li>
+</ul>
+<p class="pub-year">2023</p>
+<ul>
+<li><strong>BatchGFlowNet: Generative Flow Networks for Batch Active Learning.</strong> <em>ICML 2023 SPIGM Workshop</em></li>
+</ul>
+</div>
+</div>
+<div class="publications-column">
+<h3>Preprints &amp; Under Review</h3>
+<div class="publications-scroll">
+<p class="pub-year">2026</p>
+<ul>
+<li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
+<li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
+<li><strong>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games.</strong> <em>Under review at NETYS 2026</em></li>
+<li><strong>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Zero-Shot Off-Policy Learning.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Path-dependent Discrete Amortized Inference.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Particle GFlowNets: Rethinking Generative Marginalization Models.</strong> <em>Under review at UAI 2026</em></li>
+<li><strong>CoRe: Collaborative Reasoning via Cross Teaching.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions.</strong> <em>Under review at ICML 2026 (Position Paper Track)</em></li>
+<li><strong>Bayesian Experimental Design: Bridging Optimization and Causal Discovery.</strong> <em>Under review at IJCAI-ECAI 2026 Survey Track</em></li>
+<li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Under review at Information Sciences</em></li>
+</ul>
+<p class="pub-year">2025</p>
+<ul>
+<li><strong>LLM-BABYBENCH: Understanding and Evaluating Grounded Planning and Reasoning in LLMs.</strong> <em>arXiv:2505.12135</em></li>
+<li><strong>Semantic Communication Meets System 2 ML: How Abstraction, Compositionality and Emergent Languages Shape Intelligence.</strong> <em>arXiv:2505.20964</em></li>
+</ul>
+<p class="pub-year">2024</p>
+<ul>
+<li><strong>On Generalization for Generative Flow Networks.</strong> <em>arXiv:2407.03105</em></li>
+<li><strong>Investigating Regularization of Self-Play Language Models.</strong> <em>arXiv:2404.04291</em></li>
+</ul>
+<p class="pub-year">2020</p>
+<ul>
+<li><strong>Mastering Rate-Based Curriculum Learning.</strong> <em>arXiv preprint arXiv:2008.06456</em></li>
+</ul>
+</div>
+</div>
+</div>
 
-## xxx
+### Thesis and Edited Volumes
 
-xxx
+- **Networked Systems: 13th International Conference, NETYS 2025, Rabat, Morocco, Proceedings.** *Lecture Notes in Computer Science, vol. 15736, Springer, 2025*
+- **Advances in Uncertainty Modelling: From Epistemic Uncertainty Estimation to Generalized Generative Flow Networks.** *Ph.D. Thesis, Université de Montréal, 2023*
+
+<style>
+/* Break out of the default 800px body width for the publications page */
+body { max-width: 1200px !important; }
+
+.publications-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2em;
+  margin-top: 1.2em;
+}
+.publications-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.publications-column h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #d3d3d3;
+}
+.publications-scroll {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 0.2em 0.75em 0.5em 0.25em;
+  font-size: 0.82em;
+  line-height: 1.45;
+}
+.publications-scroll ul {
+  padding-left: 1.1em;
+  margin: 0.3em 0 0.8em 0;
+  list-style: disc;
+}
+.publications-scroll li {
+  margin-bottom: 0.5em;
+}
+.publications-scroll p.pub-year {
+  margin: 0.7em 0 0.2em 0;
+  font-weight: 600;
+}
+@media (max-width: 720px) {
+  body { max-width: 100% !important; }
+  .publications-columns { grid-template-columns: 1fr; }
+  .publications-scroll { max-height: none; }
+}
+</style>
+

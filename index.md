@@ -8,113 +8,175 @@ published: true
 ---
 
 <div class="intro-section">
-  <p class="lead-text">
-    I am an Assistant Professor at the Machine Learning department of the <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>. My research focuses on areas like LLM reasoning, GFlowNets, uncertainty estimation, reinforcement learning sample complexity, and more broadly, on designing better "AI for science" tools.
-  </p>
 
+  <div class="bio-toggle" style="margin-bottom: 1em; font-size: 0.9em;">
+    <button id="bio-btn-first" class="bio-tab active" type="button">Full bio</button>
+    <button id="bio-btn-third" class="bio-tab" type="button">Short bio (3rd person)</button>
+  </div>
 
+  <div id="bio-first" class="bio-version">
+    <p class="lead-text">
+      I am an Assistant Professor at the Machine Learning department of the <a href="https://mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>. My research focuses on LLM reasoning, GFlowNets, uncertainty estimation, sample-efficient reinforcement learning, and more broadly on AI for science.
+    </p>
 
-  <div class="research-topics">
-    <h3>Research Topics</h3>
-    <div class="topic-grid">
-      <div class="topic-item">AI for Science Tools</div>
-      <div class="topic-item">LLM Reasoning</div>
-      <div class="topic-item">Curriculum Learning</div>
-      <div class="topic-item">Uncertainty Estimation</div>
-      <div class="topic-item">Sample Efficient RL</div>
-      <div class="topic-item">Bayesian Optimization</div>
-      <div class="topic-item">GFlowNets</div>
-      <div class="topic-item">Probabilistic Modeling</div>
+    <p>
+      Before my current role I was a Senior Researcher at <a href="https://www.tii.ae/" target="_blank">TII</a> (2024). I obtained my PhD in 2023 from <a href="https://mila.quebec/en/" target="_blank">Mila</a> and <a href="https://www.umontreal.ca/en" target="_blank">Université de Montréal</a> under the supervision of <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, and during my PhD I interned at Google (Paris, 2020) on the emergence of hierarchies in social reinforcement learning. I studied applied mathematics at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">ENS Paris-Saclay (MVA)</a>. I also worked on game theory and operations research at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a> and as a data scientist at <a href="https://www.booking.com/">Booking.com</a> (Amsterdam).
+    </p>
+
+    <p>
+      I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong> and created the <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><code>torchgfn</code></a> library (published in JMLR). I am driven by a deep interest in understanding and defining intelligence, whether in animals or artificial systems. While I'm excited about the potential of AI, I'm also mindful of its limitations and pitfalls &mdash; I'm not a technosolutionist.
+    </p>
+  </div>
+
+  <div id="bio-third" class="bio-version" style="display: none;">
+    <div class="short-bio-text" style="padding: 0.75em 1em; background: #f7f7f7; border-left: 3px solid #1f77b4; border-radius: 3px;">
+      <p style="margin: 0;">
+        Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).
+      </p>
     </div>
+    <button id="copy-short-bio" type="button" style="margin-top: 0.75em; font-size: 0.85em; padding: 0.3em 0.8em;">Copy to clipboard</button>
+    <span id="copy-feedback" style="margin-left: 0.5em; font-size: 0.85em; color: #2a8f2a; display: none;">copied</span>
   </div>
 
   <div class="highlight-box">
     <br>
-    - Prospective graduate students are welcome <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">to apply to MBZUAI</a> and mention me as their supervisors <strong>after reaching out by email</strong>, mentioning their research experience and interests.  
+    - Prospective graduate students are welcome <a href="https://mbzuai.ac.ae/study/graduate-admission-process/" target="_blank">to apply to MBZUAI</a> and mention me as their supervisor <strong>after reaching out by email</strong>, mentioning their research experience and interests.
     <br>
-    - Prospective visiting students with research experience, and interests aligned with mine are welcome to apply via email. I will not be responding to LLM-generated emails / research statements.
-  </div>
-
-  <div class="my-contributions" style="margin-top: 2em; ">
-    <h3 id="contributions-toggle" style="cursor: pointer; text-align: center; color: #d3d3d3; display: block; border-bottom: 1px solid #d3d3d3; padding-bottom: 5px; user-select: none; font-size: 1em; font-weight: 500; margin: auto;">
-      My Contributions
-      <span id="contributions-icon" style="color: #d3d3d3; font-size: 0.8em;">+</span>
-    </h3>
-    <div id="contributions-content" style="display: none; text-align: left;">
-      <p>
-        I build more capable and reliable AI. My research focuses on teaching machines to reason, plan, and generate diverse solutions under uncertainty.
-      </p>
-      <p>
-        My work is centered on three key areas:
-      </p>
-      <ol style="padding-left: 20px;">
-        <li style="margin-bottom: 1em;">
-          <strong>Developing Novel Methods:</strong> I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong>, a modern framework for structured probabilistic sampling. I also design new techniques for crucial problems like <strong>uncertainty estimation (DEUP)</strong> and <strong>efficient curriculum learning</strong>.
-        </li>
-        <li style="margin-bottom: 1em;">
-          <strong>Advancing Large Language Models:</strong> I apply these methods to improve the reasoning and alignment of LLMs, with projects focused on enhancing multi-step logic and fine-tuning models with human preferences.
-        </li>
-        <li style="margin-bottom: 1em;">
-          <strong>Building Tools for the Community:</strong> I believe in advancing science through shared tools. I created the <strong><code><a href="https://github.com/GFNOrg/torchgfn" target="_blank">torchgfn</a></code></strong> library for GFlowNets (now published in JMLR) and have co-led the development of benchmarks like <strong><a href="https://minigrid.farama.org/" target="_blank">BabyAI</a></strong>, <strong><a href="https://github.com/mbzuai-nlp/finchain" target="_blank">FinChain</a></strong>, and <strong><a href="https://github.com/choukrani/llm-babybench" target="_blank">LLM-BabyBench</a></strong>.
-        </li>
-      </ol>
-      <p>
-        Ultimately, I aim to create AI systems that are robust, creative, and trustworthy enough for real-world deployment.
-      </p>
-    </div>
+    - Prospective visiting students with research experience and interests aligned with mine are welcome to apply via email. I will not be responding to LLM-generated emails / research statements.
   </div>
 </div>
 
 <div class="news" style="margin-top: 2em;">
 <h2>News</h2>
-<div style="max-height: 25em; overflow-y: auto;">
 <ul>
-  <li><span class="news-date">February 2026</span> - I organized the <a href="https://mlws.mbzuai.ac.ae" target="_blank">MBZUAI ML Winter School 2026</a>, coordinating lecturer invitations, applicant selection, and program design.</li>
+  <li><span class="news-date">April 2026</span> &mdash; Accepted invitation to serve as <strong>Program Committee Co-Chair</strong> for the Frontier AI Systems Workshop (FAISys), Xiamen, China, December 2026.</li>
 
-  <li><span class="news-date">January 2026</span> - I gave an invited talk titled "Generative Modeling with Flow Networks and Applications in Sciences" and served as a mentor at the <a href="https://mena.ml" target="_blank">MenaML Winter School 2026</a> at KAUST, Saudi Arabia (300+ participants).</li>
+  <li><span class="news-date">April 2026</span> &mdash; Papers accepted at ACL 2026: <em>FinChain</em> and <em>SAHM</em> (main), <em>Temporal Contrastive Decoding</em> (Findings).</li>
 
-  <li><span class="news-date">January 2026</span> - I gave an invited talk titled "GFlowNets: Diverse Generative AI for Molecular and Biological Sequence Design" and participated in panel discussions at the <a href="https://ai4s.qcri.org/symposium" target="_blank">AI for Science Symposium</a> at HBKU, Doha.</li>
+  <li><span class="news-date">March 2026</span> &mdash; Invited Area Chair for NeurIPS 2026.</li>
 
-  <li><span class="news-date">November 2025</span> - I gave an invited talk titled "GFlowNets for Scientific Discovery: From Mathematical Reasoning to Biological Sequence Design" at HSE University's HDI Lab (online).</li>
-  <li><span class="news-date">September 2025</span> - I gave an invited talk titled "Teaching LLMs to Reason Diversely: Process Reward Models and Step-Level GFlowNets for Mathematical Problem Solving" at Sorbonne University (Abu Dhabi)</li>
-  <li><span class="news-date">September 2025</span> - I will be serving as a co-Program chair at the <a href="https://www2026.thewebconf.org/calls/phd-symposium.html" target="_blank">PhD symposium of the Web Conference 2026</a></li>
-  <li><span class="news-date">May 2025</span> - I co-organized the <a href="https://istfm.github.io/index.html" target="_blank">International Symposium on Trustworthy Foundation Models</a> at MBZUAI.</li>   
-  <li><span class="news-date">May 2025</span> - I gave a tutorial titled "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the <a href="https://netys.org/" target="_blank">METIS Spring School</a>.</li>
-  <li><span class="news-date">May 2025</span> - I served as a co-Program Chair at the <a href="https://netys.org/" target="_blank">NETYS 2025</a> conference in Rabat.</li>  
-  <!-- <li><span class="news-date">May 2025</span> - Our work <a href="https://www.arxiv.org/abs/2502.13191">"On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis"</a> has been accepted to the UAI 2025 conference, and to the <a href="https://sites.google.com/view/icbinb-2025">"I Can't Believe It's Not Better: Challenges in Applied Deep Learning" @ ICLR 2025</a> workshop <b>as a spotlight talk</b>. Congrats to my students Junyi and Abhijith.</li> -->
-  <li><span class="news-date">May 2025</span> - I gave a talk titled "Advancing Scientific Discovery with Generative AI" at the SKEMA Center for Artificial Intelligence.</li>
-  <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: An Introduction and Recent Advances" at the <a href="https://emerging-ml.github.io/">MBZUAI-Berkeley Joint Workshop on Emerging Directions of Machine Learning</a>.</li>
-  <li><span class="news-date">February 2025</span> - I gave a talk titled "GFlowNets: A Novel Framework for Diverse Generation in Combinatorial and Continuous Spaces" at the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
-  <!-- <li><span class="news-date">February 2025</span> - Our work <a href="https://arxiv.org/abs/2406.16061">"PORT: Preference Optimization on Reasoning Traces"</a> has been accepted to the <a href="https://2025.naacl.org/">NAACL 2025</a> conference.</li> -->
-  <!-- <li><span class="news-date">February 2025</span> - Our work "Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers" has been accepted to the <a href="https://www.servsig.org/wordpress/2024/08/2025-frontiers-in-service-in-hec-montreal-canada/">Frontiers in service 2025</a> conference.</li> -->
-  <li><span class="news-date">December 2024</span> - I gave a keynote talk titled "Advancing the Fourth Paradigm: Machine Learning Frameworks for Experimental Science" at the  the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
-  <li><span class="news-date">November 2024</span> - I attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB workshop</a>, and the <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain adaption and related areas workshop</a> at the Simon's institute, in University of California, Berkeley.</li>
-  <li><span class="news-date">September 2024</span> - I joined MBZUAI as an Assistant Professor in the Machine Learning Department.</li>
+  <li><span class="news-date">March 2026</span> &mdash; Papers accepted at ICLR 2026 workshops: <em>Avoid What You Know</em> (DeLTa) and <em>HyperKKL</em> (AI&amp;PDE).</li>
+
+  <li><span class="news-date">February 2026</span> &mdash; Organized the <a href="https://mlws.mbzuai.ac.ae" target="_blank">MBZUAI ML Winter School 2026</a>.</li>
+
+  <li><span class="news-date">January 2026</span> &mdash; Invited talks at the <a href="https://mena.ml" target="_blank">MenaML Winter School 2026</a> (KAUST) and the <a href="https://ai4s.qcri.org/symposium" target="_blank">AI for Science Symposium</a> (HBKU, Doha).</li>
+
+  <li><span class="news-date">January 2026</span> &mdash; Papers accepted at EACL 2026: <em>Communication Enables Cooperation in LLM Agents</em> (Oral) and <em>SD-E2</em> (Findings).</li>
+
+  <li><span class="news-date">December 2025</span> &mdash; Received the <strong>Best Presentation Award</strong> at ICoIAS 2025 and the <strong>Top Reviewer Award</strong> at NeurIPS 2025.</li>
+
+  <li><span class="news-date">December 2025</span> &mdash; Awarded an MBZUAI research grant (500,000 AED, PI) for advancing GFlowNet research.</li>
+
+  <li><span class="news-date">December 2025</span> &mdash; Paper accepted at AAAI 2026: <em>Loss-guided Auxiliary Agents for Overcoming Mode Collapse in GFlowNets</em>.</li>
+
+  <li><span class="news-date">November 2025</span> &mdash; Invited talk at HSE University's HDI Lab (online).</li>
+
+  <li><span class="news-date">October 2025</span> &mdash; Papers accepted at NeurIPS 2025 workshops: <em>TorchGFN</em> (Frontiers in Probabilistic Inference) and <em>Curriculum-Augmented GFlowNets for mRNA Sequence Generation</em> (MLSB).</li>
+
+  <li><span class="news-date">October 2025</span> &mdash; Co-organized the "Bayesianism in the Age of Modern AI" workshop at MBZUAI.</li>
+
+  <li><span class="news-date">September 2025</span> &mdash; Invited Area Chair for ICML 2026.</li>
+
+  <li><span class="news-date">September 2025</span> &mdash; Paper accepted at NeurIPS 2025: <em>SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem</em>.</li>
+
+  <li><span class="news-date">September 2025</span> &mdash; Invited talk at Sorbonne University Abu Dhabi.</li>
+
+  <li><span class="news-date">June 2025</span> &mdash; Invited Area Chair for ICLR 2026.</li>
+
+  <li><span class="news-date">May 2025</span> &mdash; Tutorial "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the METIS Spring School.</li>
+
+  <li><span class="news-date">May 2025</span> &mdash; Co-organized the <a href="https://istfm.github.io/index.html" target="_blank">International Symposium on Trustworthy Foundation Models</a> at MBZUAI; co-Program Chair at <a href="https://netys.org/" target="_blank">NETYS 2025</a> (Rabat).</li>
+
+  <li><span class="news-date">April 2025</span> &mdash; Paper accepted at UAI 2025: <em>On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis</em>.</li>
+
+  <li><span class="news-date">February 2025</span> &mdash; ICLR 2025 workshop papers: <em>Mitigating Societal Cognitive Overload in the Age of AI</em> (Bidirectional Human-AI Alignment) and <em>Privacy Risks of Spiking Neural Networks</em> (ICBINB, Oral).</li>
+
+  <li><span class="news-date">February 2025</span> &mdash; Co-PI on the EnergyAI flagship research project (2M AED/year, 18 months) and on the Etihad flagship research project (400,000 USD, 12 months).</li>
+
+  <li><span class="news-date">February 2025</span> &mdash; Talks at the <a href="https://emerging-ml.github.io/">MBZUAI&ndash;Berkeley Joint Workshop</a> and the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
+
+  <li><span class="news-date">January 2025</span> &mdash; Paper accepted at NAACL 2025: <em>PORT: Preference Optimization on Reasoning Traces</em>.</li>
+
+  <li><span class="news-date">December 2024</span> &mdash; Keynote at the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
+
+  <li><span class="news-date">November 2024</span> &mdash; Attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB</a> and <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain Adaptation</a> workshops at the Simons Institute, UC Berkeley.</li>
+
+  <li><span class="news-date">September 2024</span> &mdash; Joined MBZUAI as Assistant Professor in the Machine Learning department.</li>
 </ul>
 </div>
-</div>
 
-<div style="margin-top: 2em;">
-  <p>
-    Ultimately, I am driven by a deep interest in understanding and defining intelligence, whether it's in animals or artificial systems. While I'm excited about the potential of AI, I'm also mindful of its limitations and potential pitfalls – I'm definitely not a technosolutionist.
-  </p>
-  <p>
-    Before my current role, I worked at <a href="https://www.tii.ae/" target="_blank">TII</a> as a Senior Researcher in 2024. I obtained my PhD in 2023 from <a href="https://mila.quebec/en/" target="_blank">Mila</a> and <a href="https://www.umontreal.ca/en" target="_blank">UdeM</a>, under the supervision of <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>. During my PhD, I also interned at Google Brain in Paris in 2020, focusing on hierarchical reinforcement learning. My academic background includes studies in applied mathematics at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">Ecole Normale Supérieure Paris-Saclay</a>. I've also explored research in game theory and operations research at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a> and gained industry experience as a data scientist at <a href="https://www.booking.com/">Booking.com</a> in Amsterdam.
-  </p>
-</div>
+<style>
+  .bio-toggle {
+    display: inline-flex;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .bio-tab {
+    background: #fff;
+    border: 0;
+    padding: 0.35em 0.9em;
+    cursor: pointer;
+    font-family: inherit;
+    color: #555;
+  }
+  .bio-tab.active {
+    background: #1f77b4;
+    color: #fff;
+  }
+  .bio-tab:not(.active):hover {
+    background: #f0f0f0;
+  }
+  #copy-short-bio {
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    color: #555;
+  }
+  #copy-short-bio:hover {
+    background: #f0f0f0;
+  }
+</style>
 
 <script>
-  const contributionsToggle = document.getElementById('contributions-toggle');
-  const contributionsContent = document.getElementById('contributions-content');
-  const contributionsIcon = document.getElementById('contributions-icon');
+  (function() {
+    const btnFirst = document.getElementById('bio-btn-first');
+    const btnThird = document.getElementById('bio-btn-third');
+    const bioFirst = document.getElementById('bio-first');
+    const bioThird = document.getElementById('bio-third');
+    const copyBtn = document.getElementById('copy-short-bio');
+    const copyFeedback = document.getElementById('copy-feedback');
 
-  contributionsToggle.addEventListener('click', () => {
-    if (contributionsContent.style.display === 'none') {
-      contributionsContent.style.display = 'block';
-      contributionsIcon.textContent = '-';
-    } else {
-      contributionsContent.style.display = 'none';
-      contributionsIcon.textContent = '+';
+    function show(view) {
+      if (view === 'first') {
+        bioFirst.style.display = 'block';
+        bioThird.style.display = 'none';
+        btnFirst.classList.add('active');
+        btnThird.classList.remove('active');
+      } else {
+        bioFirst.style.display = 'none';
+        bioThird.style.display = 'block';
+        btnFirst.classList.remove('active');
+        btnThird.classList.add('active');
+      }
     }
-  });
+
+    btnFirst.addEventListener('click', () => show('first'));
+    btnThird.addEventListener('click', () => show('third'));
+
+    copyBtn.addEventListener('click', async () => {
+      const text = document.querySelector('#bio-third .short-bio-text').innerText.trim();
+      try {
+        await navigator.clipboard.writeText(text);
+        copyFeedback.style.display = 'inline';
+        setTimeout(() => { copyFeedback.style.display = 'none'; }, 1800);
+      } catch (e) {
+        copyFeedback.textContent = 'copy failed';
+        copyFeedback.style.color = '#c00';
+        copyFeedback.style.display = 'inline';
+      }
+    });
+  })();
 </script>
