@@ -11,6 +11,7 @@ published: true
 
     <div class="copy-bio-row">
       <button id="copy-short-bio" type="button" class="copy-bio-btn">copy short bio</button>
+      <button id="expand-bio" type="button" class="copy-bio-btn">expand bio</button>
       <span id="copy-feedback" class="copy-feedback">copied</span>
       <div id="short-bio-source" hidden>Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).</div>
     </div>
@@ -22,9 +23,11 @@ published: true
     </p>
 
     <div class="home-bio">
-      <p>My research focuses on LLM reasoning, GFlowNets, uncertainty estimation, sample-efficient reinforcement learning, and more broadly AI for science.</p>
-      <p>Before MBZUAI I was a Senior Researcher at <a href="https://www.tii.ae/" target="_blank">TII</a> (2024). I obtained my PhD from <a href="https://mila.quebec/en/" target="_blank">Mila</a> / <a href="https://www.umontreal.ca/en" target="_blank">UdeM</a> in 2023 under <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, after applied math at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">ENS Paris-Saclay (MVA)</a>. I interned at Google Paris (2020) on the emergence of hierarchies in social RL, at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a>, and worked as a data scientist at <a href="https://www.booking.com/">Booking.com</a>.</p>
-      <p>I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong> and created the <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><code>torchgfn</code></a> library (published in JMLR). I'm excited about AI but mindful of its limits &mdash; I'm not a technosolutionist.</p>
+      <p>My research focuses on LLM reasoning, GFlowNets, uncertainty estimation, sample-efficient reinforcement learning, and more broadly AI for science. I'm excited about AI but mindful of its limits &mdash; I'm not a technosolutionist.</p>
+      <div id="bio-extra" hidden>
+        <p>Before MBZUAI I was a Senior Researcher at <a href="https://www.tii.ae/" target="_blank">TII</a> (2024). I obtained my PhD from <a href="https://mila.quebec/en/" target="_blank">Mila</a> / <a href="https://www.umontreal.ca/en" target="_blank">UdeM</a> in 2023 under <a href="https://yoshuabengio.org/" target="_blank">Yoshua Bengio</a>, after applied math at <a href="https://www.polytechnique.edu/" target="_blank">Ecole Polytechnique</a> and statistical learning at <a href="https://ens-paris-saclay.fr/" target="_blank">ENS Paris-Saclay (MVA)</a>. I interned at Google Paris (2020) on the emergence of hierarchies in social RL, at <a href="https://researcher.watson.ibm.com/researcher/view_group.php?id=8131" target="_blank">IBM Research Singapore</a>, and worked as a data scientist at <a href="https://www.booking.com/">Booking.com</a>.</p>
+        <p>I am a core contributor to <strong>Generative Flow Networks (GFlowNets)</strong> and created the <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><code>torchgfn</code></a> library (published in JMLR).</p>
+      </div>
     </div>
 
     <div class="home-section">
@@ -104,6 +107,10 @@ published: true
   margin-bottom: 0.55em;
 }
 .copy-bio-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
   margin-bottom: 0.9em;
 }
 .home-position {
@@ -178,20 +185,35 @@ published: true
 
 <script>
   (function() {
-    const btn = document.getElementById('copy-short-bio');
+    const copyBtn = document.getElementById('copy-short-bio');
     const fb = document.getElementById('copy-feedback');
     const src = document.getElementById('short-bio-source');
-    if (!btn) return;
-    btn.addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(src.textContent.trim());
-        fb.style.display = 'inline';
-        setTimeout(() => { fb.style.display = 'none'; }, 1800);
-      } catch (e) {
-        fb.textContent = 'copy failed';
-        fb.style.color = '#c00';
-        fb.style.display = 'inline';
-      }
-    });
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(src.textContent.trim());
+          fb.style.display = 'inline';
+          setTimeout(() => { fb.style.display = 'none'; }, 1800);
+        } catch (e) {
+          fb.textContent = 'copy failed';
+          fb.style.color = '#c00';
+          fb.style.display = 'inline';
+        }
+      });
+    }
+
+    const expandBtn = document.getElementById('expand-bio');
+    const extra = document.getElementById('bio-extra');
+    if (expandBtn && extra) {
+      expandBtn.addEventListener('click', () => {
+        if (extra.hasAttribute('hidden')) {
+          extra.removeAttribute('hidden');
+          expandBtn.textContent = 'collapse bio';
+        } else {
+          extra.setAttribute('hidden', '');
+          expandBtn.textContent = 'expand bio';
+        }
+      });
+    }
   })();
 </script>
