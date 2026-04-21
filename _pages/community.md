@@ -25,9 +25,7 @@ published: true
 - <a href="https://github.com/GFNOrg/torchgfn" target="_blank"><strong>torchgfn</strong></a> &mdash; creator of the PyTorch GFlowNet library.
 - <a href="https://github.com/Farama-Foundation/Minigrid" target="_blank"><strong>Minigrid</strong></a> &mdash; contributor to the widely-used RL environment library.
 
-### Editorial and Educational
+### Editorial
 
 - **Editor** &mdash; *Networked Systems*, LNCS vol. 15736, Springer 2025 (NETYS 2025 proceedings).
-- Created the exercises section for the <em>Deep Learning</em> book (Goodfellow, Bengio, Courville &mdash; MIT Press), 2019.
-
-Reviewing duties for a broader set of venues (ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS, ...) and full committee/jury service are listed in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
+- Reviewing duties for a broader set of venues (ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS, ...) and full committee/jury service are listed in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
