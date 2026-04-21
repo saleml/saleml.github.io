@@ -1,11 +1,11 @@
 ---
-title: Service
+title: Community
 layout: about
-permalink: /service/
+permalink: /community/
 published: true
 ---
 
-## Service
+## Community
 
 ### Conference Roles
 

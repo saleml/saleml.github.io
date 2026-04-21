@@ -161,15 +161,13 @@ blockquote {
   margin: 1em;
 }
 
-/* Horizontal scrolling navbar. From: https://iamsteve.me/blog/horizontal-scrolling-responsive-menu */
-.scroll {
-  white-space: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar; }
-
-.scroll::-webkit-scrollbar {
-  display: none; }
+/* Top navigation: wraps onto multiple lines on narrow screens. */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.2em;
+  margin-bottom: 0.8em;
+}
 
 
 /* Button */

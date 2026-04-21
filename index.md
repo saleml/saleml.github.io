@@ -9,6 +9,12 @@ published: true
   <aside class="home-sidebar">
     <img class="home-photo" src="{{site.baseurl}}/assets/images/profile.png" alt="Salem Lahlou">
 
+    <div class="copy-bio-row">
+      <button id="copy-short-bio" type="button" class="copy-bio-btn">copy short bio</button>
+      <span id="copy-feedback" class="copy-feedback">copied</span>
+      <div id="short-bio-source" hidden>Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).</div>
+    </div>
+
     <p class="home-position">
       Assistant Professor<br>
       Machine Learning Dept., <a href="https://mbzuai.ac.ae/" target="_blank">MBZUAI</a><br>
@@ -35,11 +41,6 @@ published: true
       <p>Visiting students with research interests aligned with mine can apply by email. I will not respond to LLM-generated emails or research statements.</p>
     </div>
 
-    <div class="home-section">
-      <button id="copy-short-bio" type="button" class="copy-bio-btn">Copy short bio for talk intros</button>
-      <span id="copy-feedback" class="copy-feedback">copied</span>
-      <div id="short-bio-source" hidden>Salem Lahlou is an Assistant Professor in the Machine Learning department at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi. His research focuses on LLM reasoning, Generative Flow Networks (GFlowNets), uncertainty estimation, sample-efficient reinforcement learning, and AI for science. He is a core contributor to GFlowNets and created the torchgfn library, published in JMLR. He obtained his PhD in 2023 from Mila and Université de Montréal under the supervision of Yoshua Bengio, and previously studied applied mathematics at Ecole Polytechnique and statistical learning at ENS Paris-Saclay (MVA).</div>
-    </div>
   </aside>
 
   <main class="home-main">
@@ -100,7 +101,10 @@ published: true
   max-width: 230px;
   border-radius: 4px;
   display: block;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.55em;
+}
+.copy-bio-row {
+  margin-bottom: 0.9em;
 }
 .home-position {
   margin: 0 0 0.9em 0;
