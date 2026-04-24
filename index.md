@@ -54,6 +54,7 @@ published: true
   <li><span class="news-date">April 2026</span> &mdash; Accepted invitation to serve as <strong>Program Committee Co-Chair</strong> for the Frontier AI Systems Workshop (FAISys), Xiamen, China, December 2026.</li>
   <li><span class="news-date">April 2026</span> &mdash; Papers accepted at ACL 2026: <em>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning</em>, <em>SAHM: Arabic Financial Instruction-Tuning Dataset and Models</em>.</li>
   <li><span class="news-date">April 2026</span> &mdash; Paper accepted at Findings of ACL 2026: <em>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models</em>.</li>
+  <li><span class="news-date">April 2026</span> &mdash; Paper accepted at NETYS 2026: <em>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games</em>.</li>
   <li><span class="news-date">March 2026</span> &mdash; Invited Area Chair for NeurIPS 2026.</li>
   <li><span class="news-date">March 2026</span> &mdash; Paper accepted at AI&amp;PDE Workshop at ICLR 2026: <em>HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning</em>.</li>
   <li><span class="news-date">March 2026</span> &mdash; Paper accepted at ICLR 2026 DeLTa Workshop (accepted); under review at ICML 2026: <em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em>.</li>

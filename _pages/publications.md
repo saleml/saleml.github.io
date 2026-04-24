@@ -20,6 +20,7 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <li><strong>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning.</strong> <em>ACL 2026</em></li>
 <li><strong>SAHM: Arabic Financial Instruction-Tuning Dataset and Models.</strong> <em>ACL 2026</em></li>
 <li><strong>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models.</strong> <em>Findings of ACL 2026</em></li>
+<li><strong>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games.</strong> <em>NETYS 2026</em></li>
 <li><strong>Communication Enables Cooperation in LLM Agents: A Comparison with Curriculum-Based Approaches.</strong> <em>EACL 2026 (Oral)</em></li>
 <li><strong>SD-E2: Semantic Exploration for Reasoning Under Token Budgets.</strong> <em>Findings of EACL 2026</em></li>
 <li><strong>TorchGFN: A PyTorch GFlowNet Library.</strong> <em>JMLR 2026 (+ NeurIPS 2025 Workshop on Frontiers in Probabilistic Inference)</em></li>
@@ -79,7 +80,6 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <ul>
 <li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
-<li><strong>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games.</strong> <em>Under review at NETYS 2026</em></li>
 <li><strong>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients.</strong> <em>Under review at ICML 2026</em></li>
 <li><strong>Zero-Shot Off-Policy Learning.</strong> <em>Under review at ICML 2026</em></li>
 <li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at ICML 2026</em></li>
