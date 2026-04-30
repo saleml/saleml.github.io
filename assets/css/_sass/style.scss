@@ -310,6 +310,14 @@ blockquote {
   }
 }
 
+/* Ensure strong is visually bold in the homepage news list.
+   Work Sans is only bundled at 400; use Lato 900 which we bundle. */
+.home-news-list strong,
+.home-news-list b {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 900;
+}
+
 // Ensure bold text in tables is actually bold
 td strong,
 td b {
