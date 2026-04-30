@@ -17,6 +17,13 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>Zero-Shot Off-Policy Learning.</strong> <em>ICML 2026</em></li>
+<li><strong>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors.</strong> <em>ICML 2026</em></li>
+<li><strong>Path-dependent Discrete Amortized Inference (Spotlight).</strong> <em>ICML 2026</em></li>
+<li><strong>Avoid What You Know: Divergent Trajectory Balance for GFlowNets.</strong> <em>ICML 2026 (+ ICLR 2026 DeLTa Workshop)</em></li>
+<li><strong>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients.</strong> <em>ICML 2026</em></li>
+<li><strong>CoRe: Collaborative Reasoning via Cross Teaching.</strong> <em>ICML 2026</em></li>
+<li><strong>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions.</strong> <em>ICML 2026</em></li>
 <li><strong>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning.</strong> <em>ACL 2026</em></li>
 <li><strong>SAHM: Arabic Financial Instruction-Tuning Dataset and Models.</strong> <em>ACL 2026</em></li>
 <li><strong>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models.</strong> <em>Findings of ACL 2026</em></li>
@@ -59,7 +66,6 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <p class="pub-year">2026</p>
 <ul>
 <li><strong>HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning.</strong> <em>AI&PDE Workshop at ICLR 2026</em></li>
-<li><strong>Avoid What You Know: Divergent Trajectory Balance for GFlowNets.</strong> <em>ICLR 2026 DeLTa Workshop (accepted); under review at ICML 2026</em></li>
 </ul>
 <p class="pub-year">2025</p>
 <ul>
@@ -78,16 +84,11 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>SCIRA: Pair-Free Defense Against Indirect Prompt Injection.</strong> <em>Under review at ACM CCS 2026</em></li>
 <li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
-<li><strong>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients.</strong> <em>Under review at ICML 2026</em></li>
-<li><strong>Zero-Shot Off-Policy Learning.</strong> <em>Under review at ICML 2026</em></li>
-<li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at ICML 2026</em></li>
-<li><strong>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors.</strong> <em>Under review at ICML 2026</em></li>
-<li><strong>Path-dependent Discrete Amortized Inference.</strong> <em>Under review at ICML 2026</em></li>
+<li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>Particle GFlowNets: Rethinking Generative Marginalization Models.</strong> <em>Under review at UAI 2026</em></li>
-<li><strong>CoRe: Collaborative Reasoning via Cross Teaching.</strong> <em>Under review at ICML 2026</em></li>
-<li><strong>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions.</strong> <em>Under review at ICML 2026 (Position Paper Track)</em></li>
 <li><strong>Bayesian Experimental Design: Bridging Optimization and Causal Discovery.</strong> <em>Under review at IJCAI-ECAI 2026 Survey Track</em></li>
 <li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Under review at Information Sciences</em></li>
 </ul>

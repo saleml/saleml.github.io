@@ -50,7 +50,7 @@ published: true
     <h2 class="home-news-heading">News</h2>
     <ul class="home-news-list">
   <!-- NEWS:START -->
-  <li><span class="news-date">May 2026</span> &mdash; <strong>7 Papers accepted</strong> at ICML 2026: <em>Path-dependent Discrete Amortized Inference (Spotlight)</em>, <em>Zero-Shot Off-Policy Learning</em>, <em>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors</em>, <em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em>, <em>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients</em>, <em>CoRe: Collaborative Reasoning via Cross Teaching</em>, <em>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions</em>.</li>
+  <li><span class="news-date">May 2026</span> &mdash; <strong>7 Papers accepted</strong> at ICML 2026: <em>Zero-Shot Off-Policy Learning</em>, <em>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors</em>, <em>Path-dependent Discrete Amortized Inference (Spotlight)</em>, <em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em>, <em>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients</em>, <em>CoRe: Collaborative Reasoning via Cross Teaching</em>, <em>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions</em>.</li>
   <li><span class="news-date">April 2026</span> &mdash; Awarded an MBZUAI research grant (500,000 AED, PI) for advancing GFlowNet research - Co-PI: Nils Lukas.</li>
   <li><span class="news-date">April 2026</span> &mdash; Accepted invitation to serve as <strong>Program Committee Co-Chair</strong> for the Frontier AI Systems Workshop (FAISys), Xiamen, China, December 2026.</li>
   <li><span class="news-date">April 2026</span> &mdash; <strong>2 Papers accepted</strong> at ACL 2026: <em>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning</em>, <em>SAHM: Arabic Financial Instruction-Tuning Dataset and Models</em>.</li>
@@ -67,7 +67,7 @@ published: true
   <li><span class="news-date">November 2025</span> &mdash; Invited talk at HSE University's HDI Lab (online).</li>
   <li><span class="news-date">October 2025</span> &mdash; Co-organized the "Bayesianism in the Age of Modern AI" workshop at MBZUAI.</li>
   <li><span class="news-date">October 2025</span> &mdash; <strong>Paper accepted</strong> at JMLR 2026: <em>TorchGFN: A PyTorch GFlowNet Library</em>.</li>
-  <li><span class="news-date">October 2025</span> &mdash; <strong>Paper accepted</strong> at NeurIPS 2025 Machine Learning in Structural Biology Workshop: <em>Curriculum-Augmented GFlowNets for mRNA Sequence Generation</em>.</li>
+  <li><span class="news-date">October 2025</span> &mdash; <strong>Paper accepted</strong> at NeurIPS 2025 Machine Learning in Structural Biology Workshop; under review at UAI 2026: <em>Curriculum-Augmented GFlowNets for mRNA Sequence Generation</em>.</li>
   <li><span class="news-date">September 2025</span> &mdash; Invited talk at Sorbonne University Abu Dhabi.</li>
   <li><span class="news-date">September 2025</span> &mdash; Invited Area Chair for ICML 2026.</li>
   <li><span class="news-date">September 2025</span> &mdash; <strong>Paper accepted</strong> at NeurIPS 2025: <em>SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem</em>.</li>
