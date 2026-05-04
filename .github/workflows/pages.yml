@@ -15,11 +15,9 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1 # Use the official Ruby setup action
         with:
-          ruby-version: '3.1' # Specify the desired Ruby version
+          ruby-version: '3.3' # Must be >= 3.2 for public_suffix 7.x (pulled in via addressable/jekyll)
+          bundler: '2.6.9'
           bundler-cache: true # Cache gems to speed up builds
-
-      - name: Recreate Gemfile.lock  # Add this step
-        run: bundle install
 
       - name: Build with Jekyll
         run: |
