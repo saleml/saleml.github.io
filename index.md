@@ -50,34 +50,89 @@ published: true
     <h2 class="home-news-heading">News</h2>
     <ul class="home-news-list">
   <!-- NEWS:START -->
-  <li><span class="news-date news-highlight">May 2026</span> &mdash; <span class="news-highlight">7 Papers accepted</span> at ICML 2026: <em>Zero-Shot Off-Policy Learning</em>, <em>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors</em>, <em>Path-dependent Discrete Amortized Inference (Spotlight)</em>, <em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em>, <em>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients</em>, <em>CoRe: Collaborative Reasoning via Cross Teaching</em>, <em>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions</em>.</li>
+  <li><span class="news-date news-highlight">May 2026</span> &mdash; <span class="news-highlight">7 Papers accepted</span> at ICML 2026:
+    <ul class="news-papers">
+      <li><em>Zero-Shot Off-Policy Learning</em></li>
+      <li><em>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors</em></li>
+      <li><em>Path-dependent Discrete Amortized Inference (Spotlight)</em></li>
+      <li><em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em></li>
+      <li><em>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients</em></li>
+      <li><em>CoRe: Collaborative Reasoning via Cross Teaching</em></li>
+      <li><em>Position: Agentic AI Systems Should Be Making Bayes-Consistent Decisions</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">April 2026</span> &mdash; Awarded an MBZUAI research grant (PI) for advancing GFlowNet research - Co-PI: Nils Lukas.</li>
   <li><span class="news-date news-highlight">April 2026</span> &mdash; Accepted invitation to serve as <strong>Program Committee Co-Chair</strong> for the Frontier AI Systems Workshop (FAISys), Xiamen, China, December 2026.</li>
   <li><span class="news-date news-highlight">April 2026</span> &mdash; Accepted invitation to serve as <strong>Member, Host Scientific Committee</strong> for the International Olympiad in Artificial Intelligence (IOAI) 2026, and developed a task for the Main Contest.</li>
-  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">2 Papers accepted</span> at ACL 2026: <em>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning</em>, <em>SAHM: Arabic Financial Instruction-Tuning Dataset and Models</em>.</li>
-  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of ACL 2026: <em>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models</em>.</li>
-  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at NETYS 2026: <em>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games</em>.</li>
+  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">2 Papers accepted</span> at ACL 2026:
+    <ul class="news-papers">
+      <li><em>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning</em></li>
+      <li><em>SAHM: Arabic Financial Instruction-Tuning Dataset and Models</em></li>
+    </ul>
+  </li>
+  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of ACL 2026:
+    <ul class="news-papers">
+      <li><em>Temporal Contrastive Decoding: A Training-Free Method for Large Audio-Language Models</em></li>
+    </ul>
+  </li>
+  <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at NETYS 2026:
+    <ul class="news-papers">
+      <li><em>Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">March 2026</span> &mdash; Invited Area Chair for NeurIPS 2026.</li>
   <li><span class="news-date news-highlight">February 2026</span> &mdash; Organized the <a href="https://mlws.mbzuai.ac.ae" target="_blank">MBZUAI ML Winter School 2026</a>.</li>
   <li><span class="news-date news-highlight">January 2026</span> &mdash; Invited talks at the <a href="https://mena.ml" target="_blank">MenaML Winter School 2026</a> (KAUST) and the <a href="https://ai4s.qcri.org/symposium" target="_blank">AI for Science Symposium</a> (HBKU, Doha).</li>
-  <li><span class="news-date news-highlight">January 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EACL 2026 (Oral): <em>Communication Enables Cooperation in LLM Agents: A Comparison with Curriculum-Based Approaches</em>.</li>
-  <li><span class="news-date news-highlight">January 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of EACL 2026: <em>SD-E2: Semantic Exploration for Reasoning Under Token Budgets</em>.</li>
+  <li><span class="news-date news-highlight">January 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EACL 2026 (Oral):
+    <ul class="news-papers">
+      <li><em>Communication Enables Cooperation in LLM Agents: A Comparison with Curriculum-Based Approaches</em></li>
+    </ul>
+  </li>
+  <li><span class="news-date news-highlight">January 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of EACL 2026:
+    <ul class="news-papers">
+      <li><em>SD-E2: Semantic Exploration for Reasoning Under Token Budgets</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">December 2025</span> &mdash; Received the <strong>Best Presentation Award</strong> at ICoIAS 2025 and the <strong>Top Reviewer Award</strong> at NeurIPS 2025.</li>
-  <li><span class="news-date news-highlight">December 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at AAAI 2026: <em>Loss-guided Auxiliary Agents for Overcoming Mode Collapse in GFlowNets</em>.</li>
+  <li><span class="news-date news-highlight">December 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at AAAI 2026:
+    <ul class="news-papers">
+      <li><em>Loss-guided Auxiliary Agents for Overcoming Mode Collapse in GFlowNets</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">November 2025</span> &mdash; Invited talk at HSE University's HDI Lab (online).</li>
   <li><span class="news-date news-highlight">October 2025</span> &mdash; Co-organized the "Bayesianism in the Age of Modern AI" workshop at MBZUAI.</li>
-  <li><span class="news-date news-highlight">October 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at JMLR 2026: <em>TorchGFN: A PyTorch GFlowNet Library</em>.</li>
+  <li><span class="news-date news-highlight">October 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at JMLR 2026:
+    <ul class="news-papers">
+      <li><em>TorchGFN: A PyTorch GFlowNet Library</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">September 2025</span> &mdash; Invited talk at Sorbonne University Abu Dhabi.</li>
   <li><span class="news-date news-highlight">September 2025</span> &mdash; Invited Area Chair for ICML 2026.</li>
-  <li><span class="news-date news-highlight">September 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at NeurIPS 2025: <em>SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem</em>.</li>
+  <li><span class="news-date news-highlight">September 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at NeurIPS 2025:
+    <ul class="news-papers">
+      <li><em>SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problem</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">June 2025</span> &mdash; Invited Area Chair for ICLR 2026.</li>
   <li><span class="news-date news-highlight">May 2025</span> &mdash; Tutorial "Reinforcement Learning through a probabilistic lens" (<a href="{{site.baseurl}}/assets/files/metis2025.pdf" target="_blank">slides</a>) at the METIS Spring School.</li>
   <li><span class="news-date news-highlight">May 2025</span> &mdash; Co-organized the <a href="https://istfm.github.io/index.html" target="_blank">International Symposium on Trustworthy Foundation Models</a> at MBZUAI; co-Program Chair at <a href="https://netys.org/" target="_blank">NETYS 2025</a> (Rabat).</li>
-  <li><span class="news-date news-highlight">April 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at UAI 2025: <em>On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis</em>.</li>
+  <li><span class="news-date news-highlight">April 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at UAI 2025:
+    <ul class="news-papers">
+      <li><em>On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; Co-PI on the EnergyAI flagship research project (2M AED/year, 18 months) and on the Etihad flagship research project (400,000 USD, 12 months).</li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; Talks at the <a href="https://emerging-ml.github.io/">MBZUAI&ndash;Berkeley Joint Workshop</a> and the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
-  <li><span class="news-date news-highlight">February 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR): <em>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions</em>.</li>
-  <li><span class="news-date news-highlight">January 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at NAACL 2025: <em>PORT: Preference Optimization on Reasoning Traces</em>.</li>
+  <li><span class="news-date news-highlight">February 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR):
+    <ul class="news-papers">
+      <li><em>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions</em></li>
+    </ul>
+  </li>
+  <li><span class="news-date news-highlight">January 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at NAACL 2025:
+    <ul class="news-papers">
+      <li><em>PORT: Preference Optimization on Reasoning Traces</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">December 2024</span> &mdash; Keynote at the <a href="https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/index.html">MoroccoAI 2024 conference</a>.</li>
   <li><span class="news-date news-highlight">November 2024</span> &mdash; Attended the <a href="https://climb.berkeley.edu/climb-workshop/">CLIMB</a> and <a href="https://simons.berkeley.edu/workshops/domain-adaptation-related-areas" target="_blank">Domain Adaptation</a> workshops at the Simons Institute, UC Berkeley.</li>
   <li><span class="news-date news-highlight">September 2024</span> &mdash; Joined MBZUAI as Assistant Professor in the Machine Learning department.</li>
@@ -167,6 +222,14 @@ published: true
 }
 .home-news-list {
   padding-left: 1.2em;
+}
+.home-news-list ul.news-papers {
+  margin: 0.35em 0 0.25em 0;
+  padding-left: 1.25em;
+  list-style-type: disc;
+}
+.home-news-list ul.news-papers li {
+  margin: 0.2em 0;
 }
 @media (max-width: 720px) {
   .home-layout {

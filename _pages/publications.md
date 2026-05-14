@@ -88,6 +88,10 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at NeurIPS 2026</em></li>
+<li><strong>AlphaEvo: LLM-Seeded Evolutionary Discovery of Robust Quantitative Trading Signals.</strong> <em>Under review at NeurIPS 2026</em></li>
+<li><strong>Entropy-Gated Latent Recursion.</strong> <em>Under review at NeurIPS 2026</em></li>
+<li><strong>CausalDreamer: Learning Predictive World Models with Latent Disentanglement.</strong> <em>Under review at NeurIPS 2026</em></li>
+<li><strong>PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>Particle GFlowNets: Rethinking Generative Marginalization Models.</strong> <em>Under review at UAI 2026</em></li>
 <li><strong>Bayesian Experimental Design: Bridging Optimization and Causal Discovery.</strong> <em>Under review at IJCAI-ECAI 2026 Survey Track</em></li>
 <li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Under review at Information Sciences</em></li>
