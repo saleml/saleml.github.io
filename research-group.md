@@ -18,8 +18,6 @@ published: true
 *   Abhijith Sharma (2025 &ndash;)
 
 ### MSc Students
-*   Bilal El Bouradi (2024 &ndash;) working with Fajri Koto
-*   Ahmed Attia (2024 &ndash;) working with Alham Fikri Aji
 *   Haoyi Yang (2025 &ndash;)
 *   Mohammad Ibrahim Ali Suleiman (2025 &ndash;)
 *   Alyaa Abdulla Rashid Alshawi Alghfeli (2025 &ndash;)
@@ -38,6 +36,8 @@ published: true
 
 *   Yahia Shaaban (MSc Student, 2024 &ndash; 2026)
 *   Giorgi Kituashvili (MSc Student, 2024 &ndash; 2026)
+*   Bilal El Bouradi (2024 &ndash; 2026) co-supervised with Fajri Koto
+*   Ahmed Attia (2024 &ndash; 2026) co-supervised with Alham Fikri Aji
 *   Aya Laajil (Visiting Student, May 2025 &ndash; October 2025)
 *   Sajan Muhammad (Research Engineer, March 2025 &ndash; June 2025)
 *   Abhijith Sharma (Research Engineer, January 2025 &ndash; June 2025; continued as PhD student)
