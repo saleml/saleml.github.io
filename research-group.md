@@ -27,7 +27,7 @@ published: true
 
 ### Research Engineers / Visiting Students
 *   Omar Alaoui (Research Engineer, March 2026 &ndash;)
-*   Mohssine Barkaoui (Visiting Student, April 2026 &ndash;)
+*   Mohssine Barkaoui (Visiting Student, April 2026 &ndash;) working with Fakhri Karray
 *   Kirill Dubovikov (Senior Research Engineer, September 2025 &ndash;) working with Martin Takac
 *   Omar El Mansouri (Research Engineer, April 2025 &ndash;) working with Martin Takac
 *   Aya El Mir (Research Engineer, November 2025 &ndash;) working with Martin Takac
