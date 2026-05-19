@@ -1,0 +1,638 @@
+{
+  "last_updated": "2026-05-19",
+  "source": "huggingface/ai-deadlines + local scrapers",
+  "conferences": [
+    {
+      "id": "neurips26",
+      "name": "NeurIPS 2026",
+      "fullName": "Conference on Neural Information Processing Systems",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://neurips.cc/",
+      "location": "International Convention Centre, Sydney, Australia (Main venue, Dec 6-12). Satellite events at Georgia World Congress Center, Atlanta, USA (Dec 8-13) and Paris, France (Dec 9-13).",
+      "dates": "December 6-12, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract registration deadline",
+          "date": "2026-05-04",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper submission deadline",
+          "date": "2026-05-06",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "neurips2027",
+      "name": "NeurIPS 2027",
+      "fullName": "Conference on Neural Information Processing Systems",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "icml26",
+      "name": "ICML 2026",
+      "fullName": "International Conference on Machine Learning",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://icml.cc/Conferences/2026/CallForPapers",
+      "location": "Coex Convention & Exhibition Center",
+      "dates": "July 6-11, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract Submission",
+          "date": "2026-01-23",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Submission",
+          "date": "2026-01-28",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "icml2027",
+      "name": "ICML 2027",
+      "fullName": "International Conference on Machine Learning",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "iclr26",
+      "name": "ICLR 2026",
+      "fullName": "The Fourteenth International Conference on Learning Representations",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://iclr.cc/Conferences/2026",
+      "location": "Riocentro Convention and Event Center",
+      "dates": "April 23-27, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract Submission",
+          "date": "2025-09-19",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Submission",
+          "date": "2025-09-24",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "iclr2027",
+      "name": "ICLR 2027",
+      "fullName": "International Conference on Learning Representations",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "colm26",
+      "name": "COLM 2026",
+      "fullName": "Conference on Language Modeling",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://colmweb.org/",
+      "location": "Hilton San Francisco Union Square, USA",
+      "dates": "October 6-9, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract Submission",
+          "date": "2026-03-26",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Submission",
+          "date": "2026-03-31",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "colm2027",
+      "name": "COLM 2027",
+      "fullName": "Conference on Language Modeling",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "aaai26",
+      "name": "AAAI 2026",
+      "fullName": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://aaai.org/conference/aaai/aaai-26/",
+      "location": "Singapore EXPO, Singapore",
+      "dates": "January 20 - 27, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract submission deadline",
+          "date": "2025-07-25",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper submission deadline",
+          "date": "2025-08-01",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "aaai2027",
+      "name": "AAAI 2027",
+      "fullName": "AAAI Conference on Artificial Intelligence",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "uai26",
+      "name": "UAI 2026",
+      "fullName": "Conference on Uncertainty in Artificial Intelligence",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://www.auai.org/uai2026/",
+      "location": "Amsterdam, Netherlands",
+      "dates": "August 17-21, 2025",
+      "deadlines": [
+        {
+          "label": "Paper",
+          "date": "2026-02-25",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "uai2027",
+      "name": "UAI 2027",
+      "fullName": "Conference on Uncertainty in Artificial Intelligence",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "aistats26",
+      "name": "AISTATS 2026",
+      "fullName": "International Conference on Artificial Intelligence and Statistics",
+      "tags": [
+        "ml"
+      ],
+      "link": "https://virtual.aistats.org/Conferences/2026",
+      "location": "Hilton Tangier Al Houara Resort & Spa",
+      "dates": "May 2-5, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract submission deadline",
+          "date": "2025-09-25",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Full paper submission deadline",
+          "date": "2025-10-02",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "aistats2027",
+      "name": "AISTATS 2027",
+      "fullName": "International Conference on Artificial Intelligence and Statistics",
+      "tags": [
+        "ml"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "cvpr26",
+      "name": "CVPR 2026",
+      "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "vision"
+      ],
+      "link": "https://cvpr.thecvf.com/Conferences/2026/CallForPapers",
+      "location": "Colorado Convention Center, Denver, USA",
+      "dates": "June 3-7, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2025-11-07",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Abstract Submission",
+          "date": "2025-11-07",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Submission",
+          "date": "2025-11-13",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "cvpr2027",
+      "name": "CVPR 2027",
+      "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "tags": [
+        "vision"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "iccv2026",
+      "name": "ICCV 2026",
+      "fullName": "International Conference on Computer Vision",
+      "tags": [
+        "vision"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "iccv2027",
+      "name": "ICCV 2027",
+      "fullName": "International Conference on Computer Vision",
+      "tags": [
+        "vision"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "eccv26",
+      "name": "ECCV 2026",
+      "fullName": "European Conference on Computer Vision",
+      "tags": [
+        "vision"
+      ],
+      "link": "https://eccv.ecva.net/Conferences/2026",
+      "location": "Malmö Arena and Malmömässan",
+      "dates": "September 8-12, 2026",
+      "deadlines": [
+        {
+          "label": "Tutorial Proposal Submission",
+          "date": "2026-02-15",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Registration",
+          "date": "2026-02-26",
+          "timezone": "UTC",
+          "note": null
+        },
+        {
+          "label": "Workshop Proposal Submission",
+          "date": "2026-02-27",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper Submission",
+          "date": "2026-03-05",
+          "timezone": "UTC",
+          "note": null
+        },
+        {
+          "label": "AI Art Submission",
+          "date": "2026-06-14",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "eccv2027",
+      "name": "ECCV 2027",
+      "fullName": "European Conference on Computer Vision",
+      "tags": [
+        "vision"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "acl26",
+      "name": "ACL 2026",
+      "fullName": "Annual Meeting of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "https://2026.aclweb.org/",
+      "location": "Grand Hyatt Manchester San Diego, 1 Market Place, San Diego, CA 92101",
+      "dates": "July 2 - 7, 2026",
+      "deadlines": [
+        {
+          "label": "Paper submission deadline",
+          "date": "2026-01-05",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "acl2027",
+      "name": "ACL 2027",
+      "fullName": "Annual Meeting of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "emnlp26",
+      "name": "EMNLP 2026",
+      "fullName": "The annual Conference on Empirical Methods in Natural Language Processing",
+      "tags": [
+        "nlp"
+      ],
+      "link": "https://2026.emnlp.org/",
+      "location": "TBA",
+      "dates": "October 24 - 29, 2026",
+      "deadlines": [
+        {
+          "label": "Paper submission deadline",
+          "date": "2026-05-25",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "hf"
+    },
+    {
+      "id": "emnlp2027",
+      "name": "EMNLP 2027",
+      "fullName": "Conference on Empirical Methods in Natural Language Processing",
+      "tags": [
+        "nlp"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "naacl2026",
+      "name": "NAACL 2026",
+      "fullName": "North American Chapter of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "naacl2027",
+      "name": "NAACL 2027",
+      "fullName": "North American Chapter of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ],
+      "source": "tba"
+    },
+    {
+      "id": "eacl2026",
+      "name": "EACL 2026",
+      "fullName": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "https://2026.eacl.org/",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": "2026-01-03",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "scrape"
+    },
+    {
+      "id": "eacl2027",
+      "name": "EACL 2027",
+      "fullName": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "tags": [
+        "nlp"
+      ],
+      "link": "https://2027.eacl.org/",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Paper",
+          "date": "2026-08-03",
+          "timezone": "AoE",
+          "note": null
+        }
+      ],
+      "source": "scrape"
+    }
+  ]
+}
