@@ -1,0 +1,337 @@
+---
+layout: null
+permalink: /deadlines/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <title>Conference Deadlines</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Conference Deadlines">
+  <meta property="og:description" content="Upcoming submission deadlines for top ML and security conferences.">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+
+  <style>
+    :root {
+      --primary-color:#7A869A;
+      --accent-color:#425466;
+      --secondary-bg-color:#F4F6F8;
+      --neutral:#333;
+      --title-font:#111;
+      --sm-gap:.5rem;
+      --md-gap:1.75rem;
+      --lg-gap:3rem;
+      --body-font:'Inter','Helvetica Neue',Arial,sans-serif;
+    }
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      font-family:var(--body-font);
+      color:var(--neutral);
+      line-height:1.65;
+      background:#fff;
+    }
+    h1,h2,h3,h4{color:var(--title-font);margin-top:0;}
+    a{color:var(--accent-color);text-decoration:none;}
+    a:hover{color:var(--accent-color);text-decoration:underline;}
+
+    .main-container{width:90%;max-width:950px;margin:0 auto;}
+
+    /* Navbar */
+    nav{background:var(--accent-color);}
+    nav .navbar-link{color:#fff;}
+    nav .navbar-link:hover,
+    nav .navbar-link.active{color:#FFD66B;}
+    nav .navbar-link.active::after{background:#FFD66B;}
+    nav .main-container > a{color:#fff;}
+    nav .main-container > a:hover{opacity:.9;}
+    nav .main-container{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:var(--sm-gap) 0;
+    }
+    .navbar-link{
+      margin-left:1rem;
+      font-weight:500;
+      color:var(--neutral);
+      position:relative;
+    }
+    .navbar-link:hover,
+    .navbar-link.active{color:var(--primary-color);}
+    .navbar-link.active::after{
+      content:'';
+      position:absolute;
+      left:0;
+      bottom:-4px;
+      width:100%;
+      height:2px;
+      background:var(--primary-color);
+    }
+
+    section{padding:var(--lg-gap) 0;}
+
+    /* Page header */
+    .page-header{
+      margin-bottom:var(--md-gap);
+    }
+    .page-header h2{margin-bottom:.25rem;}
+    .page-header p{
+      color:#666;
+      font-size:.9rem;
+      margin:0;
+    }
+
+    /* Filter tags */
+    .filter-bar{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.5rem;
+      margin-bottom:var(--md-gap);
+    }
+    .filter-tag{
+      padding:.3rem .75rem;
+      border:1px solid #dcdfe3;
+      border-radius:8px;
+      font-size:.82rem;
+      font-weight:500;
+      cursor:pointer;
+      background:#fff;
+      color:var(--neutral);
+      transition:background .15s,color .15s,border-color .15s;
+      user-select:none;
+    }
+    .filter-tag:hover{
+      border-color:var(--accent-color);
+    }
+    .filter-tag.active{
+      background:var(--accent-color);
+      color:#fff;
+      border-color:var(--accent-color);
+    }
+
+    /* Conference cards */
+    .conf-card{
+      background:var(--secondary-bg-color);
+      border:1px solid #E8EAED;
+      border-radius:8px;
+      padding:1.1rem 1.3rem;
+      margin-bottom:.85rem;
+      transition:opacity .2s;
+    }
+    .conf-card.hidden{display:none;}
+    .conf-card-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:.75rem;
+      margin-bottom:.15rem;
+    }
+    .conf-name{
+      font-size:1.1rem;
+      font-weight:700;
+      color:var(--title-font);
+    }
+    .conf-name a{color:inherit;}
+    .conf-name a:hover{color:var(--accent-color);}
+    .conf-full-name{
+      font-size:.82rem;
+      color:#888;
+      margin-bottom:.35rem;
+    }
+    .conf-meta{
+      font-size:.85rem;
+      color:#555;
+      margin-bottom:.6rem;
+    }
+    .conf-meta i{
+      width:16px;
+      text-align:center;
+      margin-right:.2rem;
+      color:var(--primary-color);
+    }
+    .conf-meta span{margin-right:1.2rem;}
+
+    /* Tags on cards */
+    .conf-tags{
+      display:flex;
+      gap:.35rem;
+      flex-shrink:0;
+    }
+    .conf-tag{
+      padding:.15rem .5rem;
+      border-radius:4px;
+      font-size:.72rem;
+      font-weight:600;
+      text-transform:uppercase;
+      letter-spacing:.3px;
+    }
+    .conf-tag.ml{background:#E8F5E9;color:#2E7D32;}
+    .conf-tag.security{background:#FFF3E0;color:#E65100;}
+    .conf-tag.vision{background:#E3F2FD;color:#1565C0;}
+    .conf-tag.nlp{background:#F3E5F5;color:#6A1B9A;}
+    .conf-tag.privacy{background:#E0F7FA;color:#00695C;}
+
+    /* Deadline rows */
+    .deadline-list{
+      display:flex;
+      flex-direction:column;
+      gap:.3rem;
+    }
+    .deadline-row{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      font-size:.85rem;
+      padding:.25rem .5rem;
+      border-radius:4px;
+    }
+    .deadline-row.upcoming{
+      background:#fff;
+      border:1px solid #c8e6c9;
+    }
+    .deadline-row.passed{
+      color:#999;
+    }
+    .deadline-label{
+      font-weight:600;
+      min-width:70px;
+    }
+    .deadline-date{
+      flex:1;
+      margin-left:.5rem;
+    }
+    .countdown{
+      font-weight:600;
+      font-size:.8rem;
+      white-space:nowrap;
+    }
+    .countdown.upcoming{color:#2E7D32;}
+    .countdown.passed{color:#999;}
+    .countdown.imminent{color:#C62828;}
+    .deadline-check{
+      color:#999;
+      margin-right:.3rem;
+    }
+    .deadline-clock{
+      color:#2E7D32;
+      margin-right:.3rem;
+    }
+    .deadline-clock.imminent{
+      color:#C62828;
+    }
+    .tba-note{
+      font-size:.82rem;
+      color:#999;
+      font-style:italic;
+      padding:.25rem .5rem;
+    }
+
+    /* Section divider */
+    .section-divider{
+      margin:var(--lg-gap) 0 var(--md-gap);
+      padding-bottom:.5rem;
+      border-bottom:2px solid #E8EAED;
+      font-size:.9rem;
+      font-weight:600;
+      color:#999;
+      text-transform:uppercase;
+      letter-spacing:.5px;
+    }
+
+    /* Footer */
+    footer{
+      background:var(--secondary-bg-color);
+      text-align:center;
+      padding:var(--md-gap) 0;
+      font-size:.85rem;
+    }
+
+    /* No results */
+    .no-results{
+      text-align:center;
+      color:#999;
+      padding:2rem;
+      font-size:.9rem;
+      display:none;
+    }
+
+    /* Mobile */
+    @media (max-width:600px){
+      nav .main-container{
+        flex-direction:column;
+        gap:.25rem;
+        text-align:center;
+      }
+      .navbar-link{margin:0 .4rem;}
+      section{padding:var(--sm-gap) 0;}
+      .conf-card-header{
+        flex-direction:column;
+        gap:.3rem;
+      }
+      .conf-meta span{
+        display:block;
+        margin-bottom:.2rem;
+      }
+      .deadline-row{
+        flex-wrap:wrap;
+        gap:.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <div class="main-container">
+    <p style="margin:0 0 1rem;"><a href="/">← lahlou.org</a></p>
+    <div class="page-header">
+      <h2>Conference Deadlines</h2>
+      <p>Submission deadlines for ML, vision, and NLP conferences (group internal). Countdowns use each deadline's timezone (AoE when noted).</p>
+    </div>
+
+    <!-- Filters -->
+    <div class="filter-bar">
+      <span class="filter-tag active" data-tag="all">All</span>
+      <span class="filter-tag" data-tag="ml">ML</span>
+            <span class="filter-tag" data-tag="vision">Vision</span>
+      <span class="filter-tag" data-tag="nlp">NLP</span>
+          </div>
+
+    <!-- Conference list (rendered by JS) -->
+    <div id="conf-list"></div>
+    <div id="no-results" class="no-results">No conferences match the selected filter.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="main-container">
+    Salem Lahlou – <span id="last-updated">Loading…</span>
+  </div>
+</footer>
+
+<script src="/assets/js/deadlines.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const footer = document.getElementById("last-updated");
+  try {
+    const res = await fetch("/assets/data/deadlines.json");
+    const data = await res.json();
+    window.CONFERENCES = data.conferences || [];
+    window.LAST_UPDATED = data.last_updated || "";
+    if (footer) footer.textContent = "Last updated " + window.LAST_UPDATED;
+    if (typeof initDeadlinesPage === "function") initDeadlinesPage();
+  } catch (e) {
+    if (footer) footer.textContent = "Failed to load deadline data.";
+    console.error(e);
+  }
+});
+</script>
+</body>
+</html>

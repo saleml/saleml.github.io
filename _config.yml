@@ -33,6 +33,9 @@ include:
   - _pages
 
 exclude:
+  - .venv-deadlines/
+  - deadlines/overrides.yaml
+  - deadlines/watchlist.yaml
   - README.md
   - LICENSE.md
   - old
