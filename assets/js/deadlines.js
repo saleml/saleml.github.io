@@ -54,9 +54,12 @@ function sortConferences(confs) {
     if (nextA && nextB) {
       return parseDeadlineEnd(nextA.date, nextA.timezone) - parseDeadlineEnd(nextB.date, nextB.timezone);
     }
-    // both passed: sort by latest deadline descending
+    // both passed (or TBA-only): sort by latest deadline descending
     const latA = getLatestDeadline(a);
     const latB = getLatestDeadline(b);
+    if (!latA && !latB) return 0;
+    if (!latA) return 1;
+    if (!latB) return -1;
     return parseDeadlineEnd(latB.date, latB.timezone) - parseDeadlineEnd(latA.date, latA.timezone);
   });
 }
@@ -82,7 +85,7 @@ function renderConferences(filter) {
 
   function matchesFilter(conf) {
     if (filter === 'all') return true;
-    return conf.tags.includes(filter);
+    return (conf.tags || []).includes(filter);
   }
 
   // Upcoming section

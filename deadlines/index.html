@@ -7,7 +7,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Conference Deadlines">
-  <meta property="og:description" content="Upcoming submission deadlines for top ML and security conferences.">
+  <meta property="og:description" content="Conference submission deadlines (group internal).">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
@@ -311,17 +311,22 @@
   </div>
 </footer>
 
-<script src="/assets/js/deadlines.js"></script>
+<script src="../assets/js/deadlines.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
   const footer = document.getElementById("last-updated");
+  const jsonUrl = new URL("../assets/data/deadlines.json", window.location.href).href;
   try {
-    const res = await fetch("/assets/data/deadlines.json");
+    const res = await fetch(jsonUrl);
+    if (!res.ok) throw new Error("HTTP " + res.status + " for " + jsonUrl);
     const data = await res.json();
     window.CONFERENCES = data.conferences || [];
     window.LAST_UPDATED = data.last_updated || "";
     if (footer) footer.textContent = "Last updated " + window.LAST_UPDATED;
-    if (typeof initDeadlinesPage === "function") initDeadlinesPage();
+    if (typeof initDeadlinesPage !== "function") {
+      throw new Error("deadlines.js did not load");
+    }
+    initDeadlinesPage();
   } catch (e) {
     if (footer) footer.textContent = "Failed to load deadline data.";
     console.error(e);
