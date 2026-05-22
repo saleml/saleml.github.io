@@ -8,7 +8,7 @@ published: true
 ## Publications
 
 <p style="font-size: 0.9em; color: #666;">
-Full author lists are on <a href="https://scholar.google.com/citations?user=xLSkCrIAAAAJ" target="_blank">Google Scholar</a>.
+Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a> and on <a href="https://scholar.google.com/citations?user=xLSkCrIAAAAJ" target="_blank">Google Scholar</a>.
 </p>
 
 <div class="publications-columns">
@@ -65,6 +65,7 @@ Full author lists are on <a href="https://scholar.google.com/citations?user=xLSk
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>ICML 2026 Workshop AgenticUQ, Under review at NeurIPS 2026</em></li>
 <li><strong>HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning.</strong> <em>AI&PDE Workshop at ICLR 2026</em></li>
 </ul>
 <p class="pub-year">2025</p>
@@ -87,7 +88,6 @@ Full author lists are on <a href="https://scholar.google.com/citations?user=xLSk
 <li><strong>SCIRA: Pair-Free Defense Against Indirect Prompt Injection.</strong> <em>Under review at ACM CCS 2026</em></li>
 <li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
-<li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>AlphaEvo: LLM-Seeded Evolutionary Discovery of Robust Quantitative Trading Signals.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>Entropy-Gated Latent Recursion.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>CausalDreamer: Learning Predictive World Models with Latent Disentanglement.</strong> <em>Under review at NeurIPS 2026</em></li>
