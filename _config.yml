@@ -34,8 +34,7 @@ include:
 
 exclude:
   - .venv-deadlines/
-  - deadlines/overrides.yaml
-  - deadlines/watchlist.yaml
+  - deadlines/conferences.json
   - README.md
   - LICENSE.md
   - old
