@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-31",
-  "source": "huggingface/ai-deadlines + local scrapers",
+  "source": "deadlines/conferences.json (manual)",
   "conferences": [
     {
       "id": "neurips26",
@@ -25,8 +25,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "neurips2027",
@@ -45,8 +44,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "icml26",
@@ -71,8 +69,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "icml2027",
@@ -91,8 +88,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "iclr26",
@@ -117,8 +113,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "iclr2027",
@@ -137,8 +132,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "colm26",
@@ -163,8 +157,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "colm2027",
@@ -183,8 +176,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "aaai26",
@@ -209,8 +201,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "aaai2027",
@@ -219,9 +210,9 @@
       "tags": [
         "ml"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://aaai.org/conference/aaai/",
+      "location": "Palais des congrès de Montréal, Montréal, Canada",
+      "dates": "February 16 - 23, 2027",
       "deadlines": [
         {
           "label": "Submission",
@@ -229,8 +220,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "uai26",
@@ -249,8 +239,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "uai2027",
@@ -269,8 +258,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "aistats26",
@@ -295,8 +283,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "aistats2027",
@@ -315,8 +302,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "cvpr26",
@@ -347,8 +333,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "cvpr2027",
@@ -367,8 +352,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "iccv2026",
@@ -387,8 +371,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "iccv2027",
@@ -407,8 +390,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "eccv26",
@@ -451,8 +433,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "eccv2027",
@@ -471,8 +452,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "acl26",
@@ -491,8 +471,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "acl2027",
@@ -511,8 +490,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "emnlp26",
@@ -531,8 +509,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "hf"
+      ]
     },
     {
       "id": "emnlp2027",
@@ -551,8 +528,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "naacl2026",
@@ -571,8 +547,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "naacl2027",
@@ -591,8 +566,7 @@
           "timezone": "AoE",
           "note": "TBA"
         }
-      ],
-      "source": "tba"
+      ]
     },
     {
       "id": "eacl2026",
@@ -611,8 +585,7 @@
           "timezone": "AoE",
           "note": null
         }
-      ],
-      "source": "scrape"
+      ]
     },
     {
       "id": "eacl2027",
@@ -631,8 +604,51 @@
           "timezone": "AoE",
           "note": null
         }
+      ]
+    },
+    {
+      "id": "netys26",
+      "name": "NETYS 2026",
+      "fullName": "International Conference on Networked Systems",
+      "tags": [
+        "systems"
       ],
-      "source": "scrape"
+      "link": "https://netys.net/",
+      "location": "The View Agadir Hotel, Agadir, Morocco",
+      "dates": "June 10-12, 2026",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2026-03-11",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Paper",
+          "date": "2026-03-18",
+          "timezone": "AoE",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "netys2027",
+      "name": "NETYS 2027",
+      "fullName": "International Conference on Networked Systems",
+      "tags": [
+        "systems"
+      ],
+      "link": "https://netys.net/",
+      "location": "TBA",
+      "dates": "TBD",
+      "deadlines": [
+        {
+          "label": "Submission",
+          "date": null,
+          "timezone": "AoE",
+          "note": "TBA"
+        }
+      ]
     }
   ]
 }

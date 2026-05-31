@@ -171,6 +171,7 @@
     .conf-tag.security{background:#FFF3E0;color:#E65100;}
     .conf-tag.vision{background:#E3F2FD;color:#1565C0;}
     .conf-tag.nlp{background:#F3E5F5;color:#6A1B9A;}
+    .conf-tag.systems{background:#ECEFF1;color:#37474F;}
     .conf-tag.privacy{background:#E0F7FA;color:#00695C;}
 
     /* Deadline rows */
@@ -288,7 +289,7 @@
     <p style="margin:0 0 1rem;"><a href="/">← lahlou.org</a></p>
     <div class="page-header">
       <h2>Conference Deadlines</h2>
-      <p>Submission deadlines for ML, vision, and NLP conferences (group internal). Countdowns use each deadline's timezone (AoE when noted).</p>
+      <p>Curated submission deadlines for our group (ML, vision, NLP, systems). Updated manually — ask an agent to web-search and edit <code>deadlines/conferences.json</code>, then run <code>python3 scripts/build_deadlines.py</code>. Countdowns use each deadline's timezone (AoE when noted).</p>
     </div>
 
     <!-- Filters -->
@@ -297,7 +298,8 @@
       <span class="filter-tag" data-tag="ml">ML</span>
             <span class="filter-tag" data-tag="vision">Vision</span>
       <span class="filter-tag" data-tag="nlp">NLP</span>
-          </div>
+      <span class="filter-tag" data-tag="systems">Systems</span>
+    </div>
 
     <!-- Conference list (rendered by JS) -->
     <div id="conf-list"></div>
