@@ -19,7 +19,7 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <ul>
 <li><strong>Zero-Shot Off-Policy Learning.</strong> <em>ICML 2026</em></li>
 <li><strong>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors.</strong> <em>ICML 2026</em></li>
-<li><strong>Path-dependent Discrete Amortized Inference (Spotlight).</strong> <em>ICML 2026</em></li>
+<li><strong>Path-dependent Discrete Amortized Inference (Oral).</strong> <em>ICML 2026</em></li>
 <li><strong>Avoid What You Know: Divergent Trajectory Balance for GFlowNets.</strong> <em>ICML 2026 (+ ICLR 2026 DeLTa Workshop)</em></li>
 <li><strong>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients.</strong> <em>ICML 2026</em></li>
 <li><strong>CoRe: Collaborative Reasoning via Cross Teaching.</strong> <em>ICML 2026</em></li>
@@ -88,6 +88,8 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <li><strong>SCIRA: Pair-Free Defense Against Indirect Prompt Injection.</strong> <em>Under review at ACM CCS 2026</em></li>
 <li><strong>PERSUADE: A Debate Arena for Benchmarking, Optimizing, and Auditing Persuasion in Language Models.</strong> <em>Under review at COLM 2026</em></li>
 <li><strong>Accurate and Diverse LLM Mathematical Reasoning via Automated PRM-Guided GFlowNets.</strong> <em>Under review at COLM 2026</em></li>
+<li><strong>CopyShield: A Cross-Level Benchmark of Copyright Defenses in LLMs.</strong> <em>Under review at EMNLP 2026</em></li>
+<li><strong>TRACER: Trace-Regularized Training Against Indirect Prompt Injection.</strong> <em>Under review at EMNLP 2026</em></li>
 <li><strong>AlphaEvo: LLM-Seeded Evolutionary Discovery of Robust Quantitative Trading Signals.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>Entropy-Gated Latent Recursion.</strong> <em>Under review at NeurIPS 2026</em></li>
 <li><strong>CausalDreamer: Learning Predictive World Models with Latent Disentanglement.</strong> <em>Under review at NeurIPS 2026</em></li>

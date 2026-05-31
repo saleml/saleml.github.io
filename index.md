@@ -54,7 +54,7 @@ published: true
     <ul class="news-papers">
       <li><em>Zero-Shot Off-Policy Learning</em></li>
       <li><em>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors</em></li>
-      <li><em>Path-dependent Discrete Amortized Inference (Spotlight)</em></li>
+      <li><em>Path-dependent Discrete Amortized Inference (Oral)</em></li>
       <li><em>Avoid What You Know: Divergent Trajectory Balance for GFlowNets</em></li>
       <li><em>Noise-Corrected GRPO: From Noisy Rewards to Unbiased Gradients</em></li>
       <li><em>CoRe: Collaborative Reasoning via Cross Teaching</em></li>
