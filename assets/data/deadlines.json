@@ -34,15 +34,15 @@
       "tags": [
         "ml"
       ],
-      "link": "",
-      "location": "TBA",
+      "link": "https://neurips.cc/Conferences/FutureMeetings",
+      "location": "Europe (city TBD; official NeurIPS 2027)",
       "dates": "TBD",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Submission deadlines not announced"
         }
       ]
     },
@@ -78,15 +78,15 @@
       "tags": [
         "ml"
       ],
-      "link": "",
-      "location": "TBA",
+      "link": "https://icml.cc/Conferences/FutureMeetings",
+      "location": "South America (city TBD; official ICML 2027)",
       "dates": "TBD",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Submission deadlines not announced"
         }
       ]
     },
@@ -122,15 +122,15 @@
       "tags": [
         "ml"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://iclr.cc/Conferences/FutureMeetings",
+      "location": "TBD (not announced on iclr.cc; ignore predatory listings)",
+      "dates": "TBD (typically late April; unconfirmed)",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Follow iclr.cc / @iclr_conf for announcements"
         }
       ]
     },
@@ -166,9 +166,9 @@
       "tags": [
         "ml"
       ],
-      "link": "",
+      "link": "https://colmweb.org/",
       "location": "TBA",
-      "dates": "TBD",
+      "dates": "TBD (COLM usually early October; unconfirmed)",
       "deadlines": [
         {
           "label": "Submission",
@@ -210,15 +210,27 @@
       "tags": [
         "ml"
       ],
-      "link": "https://aaai.org/conference/aaai/",
+      "link": "https://aaai.org/conference/aaai/aaai-27/",
       "location": "Palais des congrès de Montréal, Montréal, Canada",
-      "dates": "February 16 - 23, 2027",
+      "dates": "February 16–23, 2027",
       "deadlines": [
         {
-          "label": "Submission",
-          "date": null,
+          "label": "Abstract",
+          "date": "2026-07-21",
           "timezone": "AoE",
-          "note": "TBA"
+          "note": null
+        },
+        {
+          "label": "Paper",
+          "date": "2026-07-28",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Supplementary material",
+          "date": "2026-07-31",
+          "timezone": "AoE",
+          "note": "code/materials"
         }
       ]
     },
@@ -230,8 +242,8 @@
         "ml"
       ],
       "link": "https://www.auai.org/uai2026/",
-      "location": "Amsterdam, Netherlands",
-      "dates": "August 17-21, 2025",
+      "location": "KIT Events, Amsterdam, Netherlands",
+      "dates": "August 17–21, 2026",
       "deadlines": [
         {
           "label": "Paper",
@@ -248,7 +260,7 @@
       "tags": [
         "ml"
       ],
-      "link": "",
+      "link": "https://www.auai.org/",
       "location": "TBA",
       "dates": "TBD",
       "deadlines": [
@@ -292,15 +304,15 @@
       "tags": [
         "ml"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://aistats.org/aistats2027/",
+      "location": "Montréal, Canada (announced by GCs; venue TBD)",
+      "dates": "TBD (typically May; unconfirmed)",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Official CFP not posted yet"
         }
       ]
     },
@@ -322,13 +334,7 @@
           "note": null
         },
         {
-          "label": "Abstract Submission",
-          "date": "2025-11-07",
-          "timezone": "AoE",
-          "note": null
-        },
-        {
-          "label": "Paper Submission",
+          "label": "Paper",
           "date": "2025-11-13",
           "timezone": "AoE",
           "note": null
@@ -342,15 +348,15 @@
       "tags": [
         "vision"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://cvpr.thecvf.com/",
+      "location": "Seattle Convention Center, Seattle, USA (per CVF)",
+      "dates": "June 19–26, 2027",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Submission deadlines not announced"
         }
       ]
     },
@@ -361,15 +367,15 @@
       "tags": [
         "vision"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://www.thecvf.com/?page_id=100",
+      "location": "No IEEE/CVF ICCV in 2026 (biennial conference)",
+      "dates": "—",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "See ICCV 2027 (Hong Kong)"
         }
       ]
     },
@@ -380,15 +386,15 @@
       "tags": [
         "vision"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://iccv.thecvf.com/",
+      "location": "Hong Kong (per CVF steering schedule)",
+      "dates": "October 2027 (exact dates TBD)",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Typically ~March; not announced"
         }
       ]
     },
@@ -442,15 +448,15 @@
       "tags": [
         "vision"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://www.thecvf.com/?page_id=100",
+      "location": "No ECCV in 2027 (biennial; next: San Antonio, USA in 2028 per CVF)",
+      "dates": "—",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "See ECCV 2028"
         }
       ]
     },
@@ -466,8 +472,14 @@
       "dates": "July 2 - 7, 2026",
       "deadlines": [
         {
-          "label": "Paper submission deadline",
+          "label": "ARR submission",
           "date": "2026-01-05",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Commitment",
+          "date": "2026-03-14",
           "timezone": "AoE",
           "note": null
         }
@@ -480,7 +492,7 @@
       "tags": [
         "nlp"
       ],
-      "link": "",
+      "link": "https://www.aclweb.org/portal/acl",
       "location": "TBA",
       "dates": "TBD",
       "deadlines": [
@@ -500,12 +512,18 @@
         "nlp"
       ],
       "link": "https://2026.emnlp.org/",
-      "location": "TBA",
-      "dates": "October 24 - 29, 2026",
+      "location": "Budapest, Hungary",
+      "dates": "October 24–29, 2026",
       "deadlines": [
         {
-          "label": "Paper submission deadline",
+          "label": "ARR submission",
           "date": "2026-05-25",
+          "timezone": "AoE",
+          "note": null
+        },
+        {
+          "label": "Commitment",
+          "date": "2026-08-02",
           "timezone": "AoE",
           "note": null
         }
@@ -537,15 +555,15 @@
       "tags": [
         "nlp"
       ],
-      "link": "",
-      "location": "TBA",
-      "dates": "TBD",
+      "link": "https://naacl.org/",
+      "location": "Toronto, Canada (widely reported; verify on official site)",
+      "dates": "June 8–13, 2026 (reported; verify)",
       "deadlines": [
         {
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "ARR commitment deadline not on official site yet"
         }
       ]
     },
@@ -556,7 +574,7 @@
       "tags": [
         "nlp"
       ],
-      "link": "",
+      "link": "https://naacl.org/",
       "location": "TBA",
       "dates": "TBD",
       "deadlines": [
@@ -576,14 +594,26 @@
         "nlp"
       ],
       "link": "https://2026.eacl.org/",
-      "location": "TBA",
-      "dates": "TBD",
+      "location": "Rabat, Morocco",
+      "dates": "March 24–29, 2026",
       "deadlines": [
         {
-          "label": "Submission",
+          "label": "ARR submission",
+          "date": "2025-10-06",
+          "timezone": "AoE",
+          "note": "passed"
+        },
+        {
+          "label": "Commitment",
+          "date": "2025-12-14",
+          "timezone": "AoE",
+          "note": "passed"
+        },
+        {
+          "label": "Notification",
           "date": "2026-01-03",
           "timezone": "AoE",
-          "note": null
+          "note": "passed"
         }
       ]
     },
@@ -595,14 +625,20 @@
         "nlp"
       ],
       "link": "https://2027.eacl.org/",
-      "location": "TBA",
-      "dates": "TBD",
+      "location": "Athens, Greece",
+      "dates": "March 9–14, 2027",
       "deadlines": [
         {
-          "label": "Paper",
+          "label": "ARR submission (long & short)",
           "date": "2026-08-03",
           "timezone": "AoE",
           "note": null
+        },
+        {
+          "label": "Commitment",
+          "date": "2026-10-11",
+          "timezone": "AoE",
+          "note": "per ACL Rolling Review"
         }
       ]
     },
@@ -646,7 +682,7 @@
           "label": "Submission",
           "date": null,
           "timezone": "AoE",
-          "note": "TBA"
+          "note": "Typically spring; not announced"
         }
       ]
     }
