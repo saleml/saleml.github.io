@@ -190,7 +190,7 @@ published: true
 ## Publications
 
 <p style="font-size: 0.9em; color: #666;">
-Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a> and on <a href="https://scholar.google.com/citations?user=xLSkCrIAAAAJ" target="_blank">Google Scholar</a>.
+Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
 </p>
 """
 
