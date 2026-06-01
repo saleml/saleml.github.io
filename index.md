@@ -50,6 +50,11 @@ published: true
     <h2 class="home-news-heading">News</h2>
     <ul class="home-news-list">
   <!-- NEWS:START -->
+  <li><span class="news-date news-highlight">June 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at UAI 2026:
+    <ul class="news-papers">
+      <li><em>Particle GFlowNets: Rethinking Generative Marginalization Models</em></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">May 2026</span> &mdash; <span class="news-highlight">7 Papers accepted</span> at ICML 2026:
     <ul class="news-papers">
       <li><em>Zero-Shot Off-Policy Learning</em></li>
