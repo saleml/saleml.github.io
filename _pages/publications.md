@@ -66,6 +66,7 @@ Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" targ
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>Random Features for Discrete Amortized Samplers.</strong> <em>LXAI Workshop at ICML 2026</em></li>
 <li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>ICML 2026 Workshop AgenticUQ, Under review at NeurIPS 2026</em></li>
 <li><strong>HyperKKL: Enabling Non-Autonomous State Estimation through Dynamic Weight Conditioning.</strong> <em>AI&PDE Workshop at ICLR 2026</em></li>
 </ul>
