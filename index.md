@@ -48,6 +48,7 @@ published: true
 
   <main class="home-main">
     <h2 class="home-news-heading">News</h2>
+    <p class="home-news-legend">* = equal contribution.</p>
     <ul class="home-news-list">
   <!-- NEWS:START -->
   <li><span class="news-date news-highlight">June 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at UAI 2026:
@@ -224,6 +225,11 @@ published: true
 }
 .home-news-heading {
   margin-top: 0;
+}
+.home-news-legend {
+  font-size: 0.85em;
+  color: #666;
+  margin: 0 0 0.6em 0;
 }
 .home-news-list {
   padding-left: 1.2em;

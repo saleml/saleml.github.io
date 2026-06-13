@@ -8,10 +8,7 @@ published: true
 ## Publications
 
 <p style="font-size: 0.9em; color: #666;">
-<span class="pub-author-me">Bold</span> = me;
-<span class="pub-author-student">blue</span> = students, postdocs, or researchers I supervise(d);
 * = equal contribution.
-Full details are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
 </p>
 
 <div class="publications-columns">
