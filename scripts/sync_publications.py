@@ -130,6 +130,43 @@ def extract_venue(body: str) -> str:
     return plain.strip(" .")
 
 
+def authors_to_html(body: str) -> str:
+    """Body is 'AUTHORS. VENUE'. Return the AUTHORS portion as HTML, preserving
+    the CV color code: people supervised by me (\\textcolor{blue}) in blue and
+    me (\\textbf) in bold. Equal-contribution asterisks are kept as-is.
+    """
+    s = body
+    s = re.sub(
+        r"\\href\{([^}]*)\}\{([^}]*)\}",
+        r'<a href="\1" target="_blank">\2</a>',
+        s,
+    )
+    s = re.sub(
+        r"\\textcolor\{blue\}\{([^{}]*)\}",
+        r'<span class="pub-author-student">\1</span>',
+        s,
+    )
+    s = re.sub(r"\\textbf\{([^{}]*)\}", r'<strong class="pub-author-me">\1</strong>', s)
+    s = re.sub(r"\\textit\{([^{}]*)\}", r"<em>\1</em>", s)
+    s = re.sub(r"\\mbox\{([^{}]*)\}", r"\1", s)
+    s = s.replace(r"\&", "&amp;")
+    s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"(\d)\(", r"\1 (", s)
+
+    # Split off the trailing venue using the same abbreviation-aware rule as
+    # extract_venue (the HTML tags introduced above never contain '. ').
+    for m in reversed(list(re.finditer(r"\. ", s))):
+        pos = m.start()
+        j = pos - 1
+        while j >= 0 and not s[j].isspace():
+            j -= 1
+        token = s[j + 1 : pos]
+        if _is_abbrev(token):
+            continue
+        return s[:pos].strip(" .")
+    return s.strip(" .")
+
+
 def parse_section(section_text: str):
     entries = []
     i = 0
@@ -147,6 +184,7 @@ def parse_section(section_text: str):
                 "year": args[0].strip(),
                 "title": tex_to_plain(args[1]),
                 "venue": extract_venue(args[2]),
+                "authors": authors_to_html(args[2]),
             }
         )
     return entries
@@ -174,7 +212,11 @@ def render_column_html(entries) -> str:
         # Title may contain <a href="...">text</a> from \href; don't escape it.
         title = e["title"]
         venue = e["venue"]
-        out.append(f'<li><strong>{title}.</strong> <em>{venue}</em></li>')
+        authors = e.get("authors", "")
+        authors_html = f'<div class="pub-authors">{authors}</div>' if authors else ""
+        out.append(
+            f'<li><strong>{title}.</strong> <em>{venue}</em>{authors_html}</li>'
+        )
     if current_year is not None:
         out.append("</ul>")
     return "\n".join(out)
@@ -190,7 +232,10 @@ published: true
 ## Publications
 
 <p style="font-size: 0.9em; color: #666;">
-Full author lists are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
+<span class="pub-author-me">Bold</span> = me;
+<span class="pub-author-student">blue</span> = students, postdocs, or researchers I supervise(d);
+* = equal contribution.
+Full details are in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
 </p>
 """
 
@@ -234,6 +279,14 @@ body { max-width: 1200px !important; }
   margin: 0.7em 0 0.2em 0;
   font-weight: 600;
 }
+.pub-authors {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.1em;
+  line-height: 1.35;
+}
+.pub-author-student { color: #1a56db; }
+.pub-author-me { font-weight: 700; color: #000; }
 @media (max-width: 720px) {
   body { max-width: 100% !important; }
   .publications-columns { grid-template-columns: 1fr; }
@@ -274,7 +327,11 @@ def main():
         out.append("### Thesis and Edited Volumes")
         out.append("")
         for e in thesis:
-            out.append(f'- **{e["title"]}.** *{e["venue"]}*')
+            authors = e.get("authors", "")
+            authors_html = (
+                f'<br><span class="pub-authors">{authors}</span>' if authors else ""
+            )
+            out.append(f'- **{e["title"]}.** *{e["venue"]}*{authors_html}')
 
     out.append("")
     out.append(STYLE)
