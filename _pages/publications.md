@@ -17,6 +17,7 @@ published: true
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Information Sciences</em><div class="pub-authors"><span class="pub-author-student">Tiago da Silva</span>, Bruna Bazaluk, Eliezer de Souza da Silva, António Góis, <strong class="pub-author-me">Salem Lahlou</strong>, Dominik Heider, Samuel Kaski, Diego Mesquita, Adèle Helena Ribeiro</div></li>
 <li><strong>Particle GFlowNets: Rethinking Generative Marginalization Models.</strong> <em>UAI 2026</em><div class="pub-authors"><span class="pub-author-student">Tiago Silva</span>, Diego Mesquita, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Zero-Shot Off-Policy Learning.</strong> <em>ICML 2026</em><div class="pub-authors">Arip Asadulaev, Maksim Bobrin, <strong class="pub-author-me">Salem Lahlou</strong>, Dmitry V. Dylov, Fakhri Karray, Martin Takáč</div></li>
 <li><strong>Bayesian Rain Field Reconstruction using Commercial Microwave Links and Diffusion Model Priors.</strong> <em>ICML 2026</em><div class="pub-authors">Badr Moufad, Albina Ilina, Hai Victor Habi, <strong class="pub-author-me">Salem Lahlou</strong>, Yazid Janati, Hagit Messer, Eric Moulines</div></li>
@@ -103,7 +104,6 @@ published: true
 <li><strong>CausalDreamer: Learning Predictive World Models with Latent Disentanglement.</strong> <em>Under review at NeurIPS 2026</em><div class="pub-authors">Prince Jha, <span class="pub-author-student">Abhijith Sharma</span>, Fan Feng, Kun Zhang, <strong class="pub-author-me">Salem Lahlou</strong>, Nils Lukas</div></li>
 <li><strong>PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents.</strong> <em>Under review at NeurIPS 2026</em><div class="pub-authors"><span class="pub-author-student">Kshitij Mishra</span>, <span class="pub-author-student">Abhijith Sharma</span>, Nils Lukas, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Bayesian Experimental Design: Bridging Optimization and Causal Discovery.</strong> <em>Work In Progress</em><div class="pub-authors">Dhruv Goyal, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
-<li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Under review at Information Sciences</em><div class="pub-authors"><span class="pub-author-student">Tiago da Silva</span>, Bruna Bazaluk, Eliezer de Souza da Silva, António Góis, <strong class="pub-author-me">Salem Lahlou</strong>, Dominik Heider, Samuel Kaski, Diego Mesquita, Adèle Helena Ribeiro</div></li>
 </ul>
 <p class="pub-year">2025</p>
 <ul>
