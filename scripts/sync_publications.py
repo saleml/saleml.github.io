@@ -198,8 +198,22 @@ def split_into_sections(text: str):
     return result
 
 
+def _year_sort_key(entry):
+    try:
+        return int(entry["year"])
+    except (ValueError, KeyError):
+        return -1
+
+
 def render_column_html(entries) -> str:
-    """Render entries as raw HTML (not subject to kramdown parsing)."""
+    """Render entries as raw HTML (not subject to kramdown parsing).
+
+    Entries are grouped under a single header per year. We sort by year
+    (descending) first so that a given year never produces more than one
+    header, regardless of the ordering in the CV source. The sort is stable,
+    so the relative order of entries within the same year is preserved.
+    """
+    entries = sorted(entries, key=_year_sort_key, reverse=True)
     out = []
     current_year = None
     for e in entries:
