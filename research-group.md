@@ -8,7 +8,6 @@ published: true
 
 ### Postdoctoral Associates
 *   Tiago Silva (October 2025 &ndash;)
-*   Yanda Li (August 2025 &ndash;) working with Martin Takac
 *   Kshitij Mishra (July 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
 *   Yuhan Liu (August 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
 *   Dushyant Chauhan (August 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
@@ -20,20 +19,23 @@ published: true
 ### MSc Students
 *   Haoyi Yang (2025 &ndash;)
 *   Mohammad Ibrahim Ali Suleiman (2025 &ndash;)
-*   Alyaa Abdulla Rashid Alshawi Alghfeli (2025 &ndash;)
+*   Alyaa Abdulla Rashid Alshawi Alghfeli (2025 )
+*   Prince Jha (2025 &ndash;)
+*   Mirat Aubakirov (2025 &ndash;) working with Fajri Koto
 *   Juan Lugo (2025 &ndash;) working with Raul Astudillo
 
 ### Research Engineers / Visiting Students
-*   Omar Alaoui (Research Engineer, March 2026 &ndash;)
 *   Mohssine Barkaoui (Visiting Student, April 2026 &ndash;) working with Fakhri Karray
 *   Kirill Dubovikov (Senior Research Engineer, September 2025 &ndash;) working with Martin Takac
-*   Omar El Mansouri (Research Engineer, April 2025 &ndash;) working with Martin Takac
-*   Aya El Mir (Research Engineer, November 2025 &ndash;) working with Martin Takac
-*   Sandeep Kumar (Research Engineer, November 2025 &ndash;) working with Martin Takac
 *   Sarim Hashmi (Research Engineer, August 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
 
 ### Alumni
 
+*   Yanda Li (Postdoctoral Researcher, August 2025 &ndash; June 2026) working with Martin Takac
+*   Aya El Mir (Research Engineer, November 2025 &ndash; July 2026) working with Martin Takac
+*   Omar El Mansouri (Research Engineer, April 2025 &ndash; July 2026) working with Martin Takac
+*   Sandeep Kumar (Research Engineer, November 2025 &ndash; July 2026) working with Martin Takac
+*   Omar Alaoui (Research Engineer, March 2026 &ndash; July 2026)
 *   Yahia Shaaban (MSc Student, 2024 &ndash; 2026)
 *   Giorgi Kituashvili (MSc Student, 2024 &ndash; 2026)
 *   Bilal El Bouradi (2024 &ndash; 2026) co-supervised with Fajri Koto
