@@ -7,7 +7,7 @@ published: true
 ## Research Group
 
 ### Postdoctoral Associates
-*   Tiago Silva (October 2025 &ndash;)
+*   Tiago da Silva (October 2025 &ndash;)
 *   Kshitij Mishra (July 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
 *   Yuhan Liu (August 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
 *   Dushyant Chauhan (August 2025 &ndash;) working with Nils Lukas and Alham Fikri Aji
