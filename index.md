@@ -81,7 +81,7 @@ published: true
   <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">2 Papers accepted</span> at ACL 2026:
     <ul class="news-papers">
       <li><em>FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning</em><div class="news-authors">Zhuohan Xie, Dhruv Sahnan, Debopriyo Banerjee, Georgi Georgiev, Rushil Thareja, <span class="pub-author-student">Hachem Madmoun</span>, Jinyan Su, Aaryamonvikram Singh, Yuxia Wang, Rui Xing, Fajri Koto, Haonan Li, Ivan Koychev, Tanmoy Chakraborty, <strong class="pub-author-me">Salem Lahlou</strong>, Veselin Stoyanov, Preslav Nakov</div></li>
-      <li><em>SAHM: Arabic Financial Instruction-Tuning Dataset and Models</em><div class="news-authors">Rania Elbadry, Sarfraz Ahmad*, Dani Bouch*, Momina Ahsan, Xueqing Peng, Jimin Huang, Muhra AlMahri, Marwa Elsaid Khalil, Yuxia Wang, <strong class="pub-author-me">Salem Lahlou</strong>, Veselin Stoyanov, Sophia Ananiadou, Preslav Nakov, Zhuohan Xie</div></li>
+      <li><em>SAHM: A Benchmark for Arabic Financial and Shariah-compliant Reasoning</em><div class="news-authors">Rania Elbadry, Sarfraz Ahmad*, Dani Bouch*, Momina Ahsan, Xueqing Peng, Jimin Huang, Muhra AlMahri, Marwa Elsaid Khalil, Yuxia Wang, <strong class="pub-author-me">Salem Lahlou</strong>, Veselin Stoyanov, Sophia Ananiadou, Preslav Nakov, Zhuohan Xie</div></li>
     </ul>
   </li>
   <li><span class="news-date news-highlight">April 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of ACL 2026:
