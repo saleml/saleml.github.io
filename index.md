@@ -51,6 +51,7 @@ published: true
     <p class="home-news-legend">* = equal contribution.</p>
     <ul class="home-news-list">
   <!-- NEWS:START -->
+  <li><span class="news-date news-highlight">August 2026</span> &mdash; Invited Talk <em>"GFlowNets: Learning to Sample in Proportion to Reward"</em> at Yandex School of Data Analysis, Russia.</li>
   <li><span class="news-date news-highlight">July 2026</span> &mdash; Awarded an <strong>IAAI Research Program</strong> grant (PI, 500,000 USD over 24 months) for "Trustworthy Agronomic Reasoning for Smallholder Advisory" - Co-PIs: Martin Takáč and Nils Lukas.</li>
   <li><span class="news-date news-highlight">July 2026</span> &mdash; Invited Talk <em>"A Gentle Introduction to LLM Reasoning"</em> at <a href="https://participant.mathmaroc.org/events/mmc-senior" target="_blank">Math&amp;Maroc Competition 2026</a>, Ben-Guerir, Morocco.</li>
   <li><span class="news-date news-highlight">June 2026</span> &mdash; Keynote <em>"A Gentle Introduction to LLM Reasoning"</em> at <a href="https://netys.net/" target="_blank">NETYS 2026</a>, Agadir, Morocco.</li>
