@@ -138,7 +138,7 @@ published: true
       <li><em>On the Privacy Risks of Spiking Neural Networks: A Membership Inference Analysis</em><div class="news-authors"><span class="pub-author-student">Junyi Guan*</span>, <span class="pub-author-student">Abhijith Sharma*</span>, Chong Tian, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
     </ul>
   </li>
-  <li><span class="news-date news-highlight">February 2025</span> &mdash; Co-PI on the <strong>EnergyAI</strong> flagship research project (1.5M USD/year, 30 months).</li>
+  <li><span class="news-date news-highlight">February 2025</span> &mdash; Co-PI on the <strong>EnergyAI</strong> flagship research project (2M USD/year, 30 months).</li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; Talks at the <a href="https://emerging-ml.github.io/">MBZUAI&ndash;Berkeley Joint Workshop</a> and the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR):
     <ul class="news-papers">
