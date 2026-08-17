@@ -33,8 +33,6 @@ include:
   - _pages
 
 exclude:
-  - .venv-deadlines/
-  - deadlines/conferences.json
   - README.md
   - LICENSE.md
   - old
