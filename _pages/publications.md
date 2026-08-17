@@ -17,6 +17,7 @@ published: true
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>Generative AI and Large Language Models for Financial Markets: From Behavioral Prediction to Autonomous Trading.</strong> <em>KDD 2026</em><div class="pub-authors">Zangir Iklassov, <span class="pub-author-student">Hachem Madmoun</span>, Jean-Jacques Duhot, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Expert-Aided Causal Discovery of Ancestral Graphs.</strong> <em>Information Sciences</em><div class="pub-authors"><span class="pub-author-student">Tiago da Silva</span>, Bruna Bazaluk, Eliezer de Souza da Silva, António Góis, <strong class="pub-author-me">Salem Lahlou</strong>, Dominik Heider, Samuel Kaski, Diego Mesquita, Adèle Helena Ribeiro</div></li>
 <li><strong>Particle GFlowNets: Rethinking Generative Marginalization Models.</strong> <em>UAI 2026</em><div class="pub-authors"><span class="pub-author-student">Tiago Silva</span>, Diego Mesquita, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Zero-Shot Off-Policy Learning.</strong> <em>ICML 2026</em><div class="pub-authors">Arip Asadulaev, Maksim Bobrin, <strong class="pub-author-me">Salem Lahlou</strong>, Dmitry V. Dylov, Fakhri Karray, Martin Takáč</div></li>

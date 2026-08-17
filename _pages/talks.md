@@ -9,6 +9,8 @@ published: true
 
 ### 2026
 
+- **August 2026** &mdash; *Generative AI &amp; Large Language Models for Financial Markets: From Behavioral Prediction to Autonomous Trading.* KDD 2026 Tutorial, Jeju Island &mdash; 3-hour lecture with Zangir Iklassov, Hachem Madmoun, and Jean-Jacques Duhot. [<a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">tutorial website</a>]
+
 - **March 2026** &mdash; *GFlowNets for Diverse Generation: Foundations and Applications to LLM Mathematical Reasoning.* Spring School &ndash; AI for Impact (March 23&ndash;25, 2026), Ben Guerir, Morocco.
 
 - **February 2026** &mdash; *GFlowNets: Diverse Generation for LLM Mathematical Reasoning.* Invited talk at EuroMed University of Fes (online).
