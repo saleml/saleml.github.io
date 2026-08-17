@@ -36,6 +36,7 @@ exclude:
   - README.md
   - LICENSE.md
   - old
+  - scripts
 
 plugins:
   - jekyll-seo-tag
