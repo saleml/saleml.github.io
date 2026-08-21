@@ -53,6 +53,16 @@ published: true
   <!-- NEWS:START -->
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Tutorial <em>"Generative AI &amp; Large Language Models for Financial Markets"</em> at <a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">KDD 2026</a>, Jeju Island (3 hours).</li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Invited Talk <em>"GFlowNets: Learning to Sample in Proportion to Reward"</em> at Yandex School of Data Analysis, Russia.</li>
+  <li><span class="news-date news-highlight">August 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EMNLP 2026:
+    <ul class="news-papers">
+      <li><em>CopyShield: A Cross-Level Benchmark of Copyright Defenses in LLMs</em><div class="news-authors">Maryam Alshehyari, <span class="pub-author-student">Dushyant Singh Chauhan</span>, Samuele Poppi, Martin Takáč, <strong class="pub-author-me">Salem Lahlou</strong>, Nils Lukas</div></li>
+    </ul>
+  </li>
+  <li><span class="news-date news-highlight">August 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at Findings of EMNLP 2026:
+    <ul class="news-papers">
+      <li><em>TRACER: Trace-Regularized Training Against Indirect Prompt Injection</em><div class="news-authors"><span class="pub-author-student">Kshitij Mishra</span>, <strong class="pub-author-me">Salem Lahlou</strong>, Nils Lukas</div></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">July 2026</span> &mdash; Awarded an <strong>IAAI Research Program</strong> grant (PI, 500,000 USD over 24 months) for "Trustworthy Agronomic Reasoning for Smallholder Advisory" - Co-PIs: Martin Takáč and Nils Lukas.</li>
   <li><span class="news-date news-highlight">July 2026</span> &mdash; Invited Talk <em>"A Gentle Introduction to LLM Reasoning"</em> at <a href="https://participant.mathmaroc.org/events/mmc-senior" target="_blank">Math&amp;Maroc Competition 2026</a>, Ben-Guerir, Morocco.</li>
   <li><span class="news-date news-highlight">June 2026</span> &mdash; Keynote <em>"A Gentle Introduction to LLM Reasoning"</em> at <a href="https://netys.net/" target="_blank">NETYS 2026</a>, Agadir, Morocco.</li>
