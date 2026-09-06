@@ -9,9 +9,9 @@ published: true
 
 ### Conference Roles
 
+- **Area Chair** &mdash; ICLR (2026, 2027), ICML (2026), NeurIPS (2026), AAAI (2027, Senior PC).
 - **Program Chair** &mdash; Netys (2025), WebConf PhD Symposium track (2026).
 - **Program Committee Co-Chair** &mdash; Frontier AI Systems Workshop (FAISys), December 2026, Xiamen, China.
-- **Area Chair** &mdash; ICLR (2026), ICML (2026), NeurIPS (2026).
 - **Member, Host Scientific Committee** &mdash; International Olympiad in Artificial Intelligence (IOAI) 2026.
 - **Local Chair** &mdash; AISTATS (2026).
 

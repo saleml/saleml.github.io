@@ -82,7 +82,7 @@ published: true
 </ul>
 <p class="pub-year">2023</p>
 <ul>
-<li><strong>BatchGFlowNet: Generative Flow Networks for Batch Active Learning.</strong> <em>ICML 2023 SPIGM Workshop</em><div class="pub-authors">Shreshth A. Malik, <strong class="pub-author-me">Salem Lahlou</strong>, Andrew Jesson, Moksh Jain, Nikolay Malkin, Tristan Deleu, Yoshua Bengio, Yarin Gal</div></li>
+<li><strong>BatchGFN: Generative Flow Networks for Batch Active Learning.</strong> <em>ICML 2023 SPIGM Workshop</em><div class="pub-authors">Shreshth A. Malik, <strong class="pub-author-me">Salem Lahlou</strong>, Andrew Jesson, Moksh Jain, Nikolay Malkin, Tristan Deleu, Yoshua Bengio, Yarin Gal</div></li>
 </ul>
 </div>
 </div>
