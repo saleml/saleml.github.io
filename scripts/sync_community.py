@@ -67,7 +67,7 @@ published: true
 ## Community
 """
 
-FOOTER = """- Reviewing duties for a broader set of venues (ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS, ...) and full committee/jury service are listed in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
+FOOTER = """- Reviewing for ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS and others.
 """
 
 SECTION_TITLES = {

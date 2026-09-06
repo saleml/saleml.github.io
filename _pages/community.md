@@ -29,4 +29,4 @@ published: true
 ### Editorial
 
 - **Editor** &mdash; *Networked Systems*, LNCS vol. 15736, Springer 2025 (NETYS 2025 proceedings).
-- Reviewing duties for a broader set of venues (ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS, ...) and full committee/jury service are listed in the <a href="{{site.baseurl}}/assets/files/CV.pdf" target="_blank">CV</a>.
+- Reviewing for ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS and others.
