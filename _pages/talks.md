@@ -9,6 +9,8 @@ published: true
 
 ### 2026
 
+- **September 2026** &mdash; *Knowledge Pipeline: Deciding Whether an Agronomic Recommendation Should Reach the Farmer.* Invited presentation and panel at ``Researching What Matters: New Directions for AI in Agriculture'', Webinar 5 of the Institute for Agriculture and AI (IAAI) and AGX AI series Transforming Agriculture with AI (online).
+
 - **August 2026** &mdash; *Generative AI &amp; Large Language Models for Financial Markets: From Behavioral Prediction to Autonomous Trading.* KDD 2026 Tutorial, Jeju Island, Republic of Korea &ndash; 3-hour lecture-style tutorial with Zangir Iklassov, Hachem Madmoun, and Jean-Jacques Duhot. <a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">tutorial website</a>
 
 - **August 2026** &mdash; *GFlowNets: Learning to Sample in Proportion to Reward.* Invited Talk at Yandex School of Data Analysis, Russia.
