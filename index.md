@@ -278,6 +278,9 @@ published: true
 }
 .home-news-list .pub-author-student { color: #1a56db; }
 .home-news-list .pub-author-me { font-weight: 700; color: #000; }
+@media (prefers-color-scheme: dark) {
+  .home-news-list .pub-author-me { color: #e6e9ee; }
+}
 @media (max-width: 720px) {
   .home-layout {
     grid-template-columns: 1fr;

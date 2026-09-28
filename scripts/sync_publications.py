@@ -298,6 +298,9 @@ body { max-width: 1200px !important; }
 }
 .pub-author-student { color: #1a56db; }
 .pub-author-me { font-weight: 700; color: #000; }
+@media (prefers-color-scheme: dark) {
+  .pub-author-me { color: #e6e9ee; }
+}
 @media (max-width: 720px) {
   body { max-width: 100% !important; }
   .publications-columns { grid-template-columns: 1fr; }

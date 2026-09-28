@@ -169,6 +169,27 @@ blockquote {
   margin-bottom: 0.8em;
 }
 
+/* Scholar and GitHub icons at the end of the top navigation. */
+.nav-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9em;
+  margin-left: auto;
+
+  a {
+    margin-right: 0;
+    color: $text-color;
+    font-size: 1.35em;
+    line-height: 1;
+    &:hover { color: $brand-color; }
+
+    @media (prefers-color-scheme: dark) {
+      color: $text-color-dark;
+      &:hover { color: $brand-color; }
+    }
+  }
+}
+
 
 /* Button */
 .simplebutton {
