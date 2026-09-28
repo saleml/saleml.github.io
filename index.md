@@ -51,6 +51,12 @@ published: true
     <p class="home-news-legend">* = equal contribution.</p>
     <ul class="home-news-list">
   <!-- NEWS:START -->
+  <li><span class="news-date news-highlight">September 2026</span> &mdash; <span class="news-highlight">2 Papers accepted</span> at NeurIPS 2026:
+    <ul class="news-papers">
+      <li><em>PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents</em><div class="news-authors"><span class="pub-author-student">Kshitij Mishra</span>, <span class="pub-author-student">Abhijith Sharma</span>, Nils Lukas, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
+      <li><em>Entropy-Gated Latent Recursion</em><div class="news-authors">Soham Bhattacharjee, <span class="pub-author-student">Dushyant Singh Chauhan</span>, <strong class="pub-author-me">Salem Lahlou</strong>, Martin Takáč, Nils Lukas</div></li>
+    </ul>
+  </li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Tutorial <em>"Generative AI &amp; Large Language Models for Financial Markets"</em> at <a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">KDD 2026</a>, Jeju Island (3 hours).</li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Invited Talk <em>"GFlowNets: Learning to Sample in Proportion to Reward"</em> at Yandex School of Data Analysis, Russia.</li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EMNLP 2026:
