@@ -80,7 +80,7 @@ published: true
 <p class="pub-year">2025</p>
 <ul>
 <li><strong>Curriculum-Augmented GFlowNets for mRNA Sequence Generation.</strong> <em>NeurIPS 2025 Machine Learning in Structural Biology Workshop</em><div class="pub-authors"><span class="pub-author-student">Aya Laajil</span>, Abduragim Shtanchaev, <span class="pub-author-student">Aya El Mir</span>, <span class="pub-author-student">Sajan Muhammad</span>, Eric Moulines, <span class="pub-author-student">Tiago Silva</span>, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
-<li><strong>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions.</strong> <em>ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR)</em><div class="pub-authors"><strong class="pub-author-me">Salem Lahlou</strong></div></li>
+<li><strong>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions.</strong> <em>ICLR 2025 Workshop on Bidirectional Human-AI Alignment (+ under review at FAccT 2027)</em><div class="pub-authors"><strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Customer Reactions to Companion AI: Exploring Opportunities and Threats for Vulnerable Consumers.</strong> <em>Frontiers in Service 2025</em><div class="pub-authors">Salma André, <strong class="pub-author-me">Salem Lahlou</strong>, Margherita Pagani</div></li>
 </ul>
 <p class="pub-year">2023</p>
