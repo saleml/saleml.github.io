@@ -157,7 +157,7 @@ published: true
   </li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; Co-PI on the <strong>EnergyAI</strong> flagship research project (2M USD/year, 30 months).</li>
   <li><span class="news-date news-highlight">February 2025</span> &mdash; Talks at the <a href="https://emerging-ml.github.io/">MBZUAI&ndash;Berkeley Joint Workshop</a> and the <a href="https://mbzuai-paris.github.io/workshop-2025">MBZUAI Paris Workshop 2025</a>.</li>
-  <li><span class="news-date news-highlight">February 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at ICLR 2025 Workshop on Bidirectional Human-AI Alignment (to appear in PMLR):
+  <li><span class="news-date news-highlight">February 2025</span> &mdash; <span class="news-highlight">Paper accepted</span> at ICLR 2025 Workshop on Bidirectional Human-AI Alignment:
     <ul class="news-papers">
       <li><em>Mitigating Societal Cognitive Overload in the Age of AI: Challenges and Directions</em><div class="news-authors"><strong class="pub-author-me">Salem Lahlou</strong></div></li>
     </ul>
