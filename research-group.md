@@ -7,6 +7,7 @@ published: true
 ## Research Group
 
 ### Postdoctoral Associates
+*   Karim Karimov (October 2026 &ndash;) working with Martin Takac
 *   Tiago da Silva (October 2025 &ndash;)
 *   Kshitij Mishra (July 2025 &ndash;) working with Nils Lukas
 *   Dushyant Chauhan (August 2025 &ndash;) working with Nils Lukas
@@ -24,6 +25,7 @@ published: true
 *   Mirat Aubakirov (2025 &ndash;) co-supervised with Fajri Koto
 
 ### Research Engineers / Visiting Students
+*   Oussama Er-rahmany (Research Engineer, October 2026 &ndash;) working with Martin Takac
 *   Aida Usmanova (Visiting Student, August 2026 &ndash;)
 *   Mohssine Bakraoui (Visiting Student, April 2026 &ndash;) working with Fakhri Karray
 *   Kirill Dubovikov (Senior Research Engineer, September 2025 &ndash;) working with Martin Takac
