@@ -72,6 +72,7 @@ published: true
 <div class="publications-scroll">
 <p class="pub-year">2026</p>
 <ul>
+<li><strong>CausalDreamer: Learning Predictive World Models with Latent Disentanglement.</strong> <em>LEAP Workshop at CoRL 2026</em><div class="pub-authors"><span class="pub-author-student">Prince Jha</span>, Nils Lukas, Kun Zhang, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Learning to Teach: Reinforcement-Learned Curricula for LLM Post-Training.</strong> <em>WiML Workshop at NeurIPS 2026</em><div class="pub-authors"><span class="pub-author-student">Aya El Mir</span>, Martin Takáč, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Random Features for Discrete Amortized Samplers.</strong> <em>LXAI Workshop at ICML 2026</em><div class="pub-authors"><span class="pub-author-student">Tiago Silva</span>, Amauri H Souza, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
 <li><strong>Breaking the Martingale Curse: Multi-Agent Debate via Asymmetric Cognitive Potential Energy.</strong> <em>ICML 2026 Workshop AgenticUQ, Under review at ICLR 2027</em><div class="pub-authors"><span class="pub-author-student">Yuhan Liu</span>, Juntian Zhang, Yichen Wu, Martin Takáč, <strong class="pub-author-me">Salem Lahlou</strong>, Xiuying Chen, Nils Lukas</div></li>
