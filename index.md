@@ -59,7 +59,7 @@ published: true
   </li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Tutorial <em>"Generative AI &amp; Large Language Models for Financial Markets"</em> at <a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">KDD 2026</a>, Jeju Island (3 hours).</li>
   <li><span class="news-date news-highlight">August 2026</span> &mdash; Invited Talk <em>"GFlowNets: Learning to Sample in Proportion to Reward"</em> at Yandex School of Data Analysis, Russia.</li>
-  <li><span class="news-date news-highlight">August 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EMNLP 2026:
+  <li><span class="news-date news-highlight">August 2026</span> &mdash; <span class="news-highlight">Paper accepted</span> at EMNLP 2026 (Oral):
     <ul class="news-papers">
       <li><em>CopyShield: A Cross-Level Benchmark of Copyright Defenses in LLMs</em><div class="news-authors">Maryam Alshehyari, <span class="pub-author-student">Dushyant Singh Chauhan</span>, Samuele Poppi, Martin Takáč, <strong class="pub-author-me">Salem Lahlou</strong>, Nils Lukas</div></li>
     </ul>
