@@ -67,7 +67,7 @@ published: true
 ## Community
 """
 
-FOOTER = """- Reviewing for ICLR, ICML, NeurIPS, UAI, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS and others.
+FOOTER = """- Reviewing for ICLR, ICML, NeurIPS, UAI, AISTATS, AAAI, ECAI, TMLR, IEEE TPAMI, JASA, ACL, NETYS and others.
 """
 
 SECTION_TITLES = {
