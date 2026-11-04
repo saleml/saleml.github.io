@@ -6,6 +6,13 @@ published: true
 
 ## Research Group
 
+<picture>
+  <source srcset="{{site.baseurl}}/assets/images/mantiq-wordmark-on-ink.svg" media="(prefers-color-scheme: dark)">
+  <img src="{{site.baseurl}}/assets/images/mantiq-wordmark-on-white.svg" alt="Mantiq AI" style="height: 56px; width: auto;">
+</picture>
+
+Mantiq AI is my research group at MBZUAI.
+
 ### Postdoctoral Associates
 *   Karim Karimov (October 2026 &ndash;) working with Martin Takac
 *   Tiago da Silva (October 2025 &ndash;)

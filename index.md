@@ -19,6 +19,7 @@ published: true
     <p class="home-position">
       Assistant Professor<br>
       Machine Learning Dept., <a href="https://mbzuai.ac.ae/" target="_blank">MBZUAI</a><br>
+      Leads <a href="{{site.baseurl}}/research-group/">Mantiq AI</a><br>
       Abu Dhabi, UAE
     </p>
 
