@@ -51,6 +51,7 @@ published: true
     <p class="home-news-legend">* = equal contribution.</p>
     <ul class="home-news-list">
   <!-- NEWS:START -->
+  <li><span class="news-date news-highlight">October 2026</span> &mdash; Co-PI on an <strong>MBZUAI Innovation Program</strong> grant (999,165 AED, 12 months) for "Prompt Internalization for Enterprise AI Agents" - PI: Nils Lukas, Co-PI: Martin Takáč.</li>
   <li><span class="news-date news-highlight">September 2026</span> &mdash; <span class="news-highlight">2 Papers accepted</span> at NeurIPS 2026:
     <ul class="news-papers">
       <li><em>PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents</em><div class="news-authors"><span class="pub-author-student">Kshitij Mishra</span>, <span class="pub-author-student">Abhijith Sharma</span>, Nils Lukas, <strong class="pub-author-me">Salem Lahlou</strong></div></li>
