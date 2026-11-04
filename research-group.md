@@ -34,7 +34,7 @@ Mantiq AI is my research group at MBZUAI.
 ### Research Engineers / Visiting Students
 *   Oussama Er-rahmany (Research Engineer, October 2026 &ndash;) working with Martin Takac
 *   Aida Usmanova (Visiting Student, August 2026 &ndash;)
-*   Mohssine Bakraoui (Visiting Student, April 2026 &ndash;) working with Fakhri Karray
+*   Mohssine Bakraoui (Research Engineer, October 2026 &ndash;; Visiting Student with Fakhri Karray, April &ndash; September 2026)
 *   Kirill Dubovikov (Senior Research Engineer, September 2025 &ndash;) working with Martin Takac
 *   Sarim Hashmi (Research Engineer, August 2025 &ndash;) working with Nils Lukas
 
