@@ -9,9 +9,9 @@ published: true
 
 ### 2026
 
-- **October 2026** &mdash; *Probabilistic Machine Learning and LLMs / Foundation Models.* Panelist at ``Rethinking the Role of Bayesianism in the Age of Modern AI'' (26&ndash;30 October 2026), Edinburgh, Scotland, UK.
+- **October 2026** &mdash; *Probabilistic Machine Learning and LLMs / Foundation Models.* Panelist at &ldquo;Rethinking the Role of Bayesianism in the Age of Modern AI&rdquo; (26&ndash;30 October 2026), Edinburgh, Scotland, UK.
 
-- **September 2026** &mdash; *Knowledge Pipeline: Deciding Whether an Agronomic Recommendation Should Reach the Farmer.* Invited presentation and panel at ``Researching What Matters: New Directions for AI in Agriculture'', Webinar 5 of the Institute for Agriculture and AI (IAAI) and AGX AI series Transforming Agriculture with AI (online).
+- **September 2026** &mdash; *Knowledge Pipeline: Deciding Whether an Agronomic Recommendation Should Reach the Farmer.* Invited presentation and panel at &ldquo;Researching What Matters: New Directions for AI in Agriculture&rdquo;, Webinar 5 of the Institute for Agriculture and AI (IAAI) and AGX AI series Transforming Agriculture with AI (online).
 
 - **August 2026** &mdash; *Generative AI &amp; Large Language Models for Financial Markets: From Behavioral Prediction to Autonomous Trading.* KDD 2026 Tutorial, Jeju Island, Republic of Korea &ndash; 3-hour lecture-style tutorial with Zangir Iklassov, Hachem Madmoun, and Jean-Jacques Duhot. <a href="https://zangir.github.io/genai-finance-kdd2026/" target="_blank">tutorial website</a>
 
@@ -27,9 +27,9 @@ published: true
 
 - **February 2026** &mdash; *GFlowNets: Diverse Generation for LLM Mathematical Reasoning.* Invited talk at EuroMed University of Fes (online).
 
-- **January 2026** &mdash; *MenaML Winter School 2026.* KAUST, Saudi Arabia. Invited talk: "Generative Modeling with Flow Networks and Applications in Sciences"; audience of 300+ participants; Mentor for undergraduate and graduate students. <a href="https://mena.ml" target="_blank">website</a>
+- **January 2026** &mdash; *MenaML Winter School 2026.* KAUST, Saudi Arabia. Invited talk: &ldquo;Generative Modeling with Flow Networks and Applications in Sciences&rdquo;; audience of 300+ participants; Mentor for undergraduate and graduate students. <a href="https://mena.ml" target="_blank">website</a>
 
-- **January 2026** &mdash; *AI for Science Symposium.* Hamad Bin Khalifa University (HBKU), Doha, Qatar. Invited talk: "GFlowNets: Diverse Generative AI for Molecular and Biological Sequence Design"; Panelist in AI for Science discussion. <a href="https://ai4s.qcri.org/symposium" target="_blank">website</a>
+- **January 2026** &mdash; *AI for Science Symposium.* Hamad Bin Khalifa University (HBKU), Doha, Qatar. Invited talk: &ldquo;GFlowNets: Diverse Generative AI for Molecular and Biological Sequence Design&rdquo;; Panelist in AI for Science discussion. <a href="https://ai4s.qcri.org/symposium" target="_blank">website</a>
 
 ### 2025
 

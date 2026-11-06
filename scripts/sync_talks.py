@@ -91,6 +91,7 @@ def latex_to_html(s: str) -> str:
     s = re.sub(r"\\textcolor\{blue\}\{([^{}]*)\}", r"\1", s)
     s = re.sub(r"\\small\{([^{}]*)\}", r"\1", s)
     s = s.replace(r"\&", "&amp;")
+    s = s.replace("``", "&ldquo;").replace("''", "&rdquo;")
     s = re.sub(r"--", "&ndash;", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
